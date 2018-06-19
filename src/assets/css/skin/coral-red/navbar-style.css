@@ -1,0 +1,191 @@
+/* Theme Color 		 : #ff4040 */
+/* Light Theme Color : #fc5b5b */
+/* RGB Color 		 : 255, 64, 64  */
+
+/*===============================================*/
+/* 02. NAV BAR  	 							 */
+/*===============================================*/
+
+/* ----------------------------------------------*/
+/* 02.1 Width & Color 							 */
+/* ----------------------------------------------*/
+
+/* 02.1.3 Top Bar 								 */
+/* ----------------------------------------------*/
+#nav-bar.top-bar.stick-it{
+	background-color:#ff4040;
+	color:#FFF;
+}
+
+/* 02.1.4 Bottom Bar 							 */
+/* ----------------------------------------------*/
+#nav-bar.bottom-bar.stick-it{
+	background-color:#ff4040;
+	color:#FFF;	
+}
+
+/* 02.1.5 Transparent & Block Color 			 */
+/* ----------------------------------------------*/
+#nav-bar.block-color{
+	background-color:#ff4040;
+	color:#FFF;	
+}
+
+/*===============================================*/
+/* 03. NAV MENU	 	 							 */
+/*===============================================*/
+
+/* ----------------------------------------------*/
+/* 03.1 Parent Menu								 */
+/* ----------------------------------------------*/
+#nav-menu > li a{
+	color:#FFF;
+}
+
+#nav-menu > li > a:hover,
+#nav-menu > li > a.active{
+	border-color:#FFF;
+}
+
+/* 03.1.1 Transparent 							 */
+/* ----------------------------------------------*/
+.transparent #nav-menu > li > a{
+	color:#FFF;
+}
+
+.transparent #nav-menu > li > a:hover,
+.transparent #nav-menu > li > a.active{
+	color:#FFF;
+	border-color:#FFF;
+}
+
+.transparent.stick-it #nav-menu > li > a{
+	color:#FFF
+}
+
+.transparent.stick-it #nav-menu > li > a:hover,
+.transparent.stick-it #nav-menu > li > a.active{
+	border-color:#FFF;
+}
+
+
+/* ----------------------------------------------*/
+/* 03.2 Child Menu								 */
+/* ----------------------------------------------*/
+#nav-menu ul li a{
+	color:#666;
+}   
+
+
+/* ----------------------------------------------*/
+/* 03.3 Mobile Nav								 */
+/* ----------------------------------------------*/
+#mobile-nav,
+.transparent.stick-it #mobile-nav{
+	color:#FFF;
+}
+
+.transparent #mobile-nav{
+	color:#FFF;
+}
+
+
+/*===============================================*/
+/* 05. LOGO	 	 	 							 */
+/*===============================================*/
+
+/* ----------------------------------------------*/
+/* 05.1 Default (Nav) Logo						 */
+/* ----------------------------------------------*/
+.nav-logo{	
+	color:#666;
+}
+
+.transparent .nav-logo{
+	color:#FFF;
+}
+
+.transparent.stick-it .nav-logo, .transparent.stick-it .nav-logo .theme-color,
+.block-color .nav-logo, .block-color .nav-logo .theme-color{
+	color:#FFF;
+}
+
+.nav-logo.rounded{
+	background-color:#ff4040;
+	color:#FFF;
+}
+
+.nav-logo.rounded .theme-color{
+	color:#FFF;
+}
+
+.transparent.stick-it .nav-logo.rounded,
+.block-color .nav-logo.rounded{
+	background-color:#FFF;
+	color:#ff4040;
+}
+
+.transparent.stick-it .nav-logo.rounded .theme-color,
+.block-color .nav-logo.rounded .theme-color{
+	color:#ff4040;
+}
+
+
+
+/* ----------------------------------------------*/
+/* 05.2	Wedding Logo							 */
+/* ----------------------------------------------*/
+.transparent .wedding-logo{
+	color:#FFF;
+}
+
+.block-color .wedding-logo,
+.transparent.stick-it .wedding-logo{
+	color:#FFF;
+}
+
+.line-1{
+	border-bottom:2px solid #FFF; 
+}
+
+.line-2{
+	border-bottom:2px solid #FFF; 
+}
+
+.transparent.stick-it .line-1,
+.transparent.stick-it .line-2,
+.block-color .line-1,
+.block-color .line-2{
+	border-color:#FFF; 
+}
+
+.top-heart{
+	color:#ff4040;
+}
+
+.bottom-heart{
+	color:#ff4040;
+}
+
+.block-color .top-heart, .block-color .bottom-heart,
+.transparent.stick-it .top-heart, .transparent.stick-it .bottom-heart{
+	color:#FFF;
+}
+
+
+@media screen and (max-width: 991px) {	
+/* ----------------------------------------------*/
+/* 03.1 Parent Menu 						     */
+/* ----------------------------------------------*/
+#nav-menu li a{
+	color:#666 !important;
+}
+
+#nav-menu li a:hover{
+	background-color:#ff4040 !important;
+}
+
+#nav-menu li a.active,
+.transparent #nav-menu li a.active{
+	color:#ff4040;
+}

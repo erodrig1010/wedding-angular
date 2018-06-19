@@ -1,0 +1,343 @@
+/* Theme Color 		 : #ff7f50 */
+/* Light Theme Color : #fe8e65 */
+/* RGB Color 		 : 255, 127, 80  */
+
+
+/*===============================================*/
+/* 00. PRELOADER		 						 */
+/*===============================================*/
+#preloader #heart-on-center{
+	color:#ff7f50; 
+}
+
+/*===============================================*/
+/* 01. GENERAL			 						 */
+/*===============================================*/
+
+h1 a:hover, h2 a:hover, h3 a:hover, 
+h4 a:hover, h5 a:hover, h6 a:hover{
+	color:#ff7f50;
+}
+
+a{
+	text-decoration:none;
+	color:#ff7f50;
+}
+
+a:hover{
+	text-decoration:none;
+	color:#ff7f50;
+}
+
+.theme-color{
+	color:#ff7f50;
+}
+
+
+
+/*===============================================*/
+/* 03. NAV MENU	 	 							 */
+/*===============================================*/
+
+/* ----------------------------------------------*/
+/* 03.2 Child Menu								 */
+/* ----------------------------------------------*/
+#nav-menu ul li a:hover,
+#nav-menu ul li a.active{	
+	color:#ff7f50;
+}
+
+/* 03.2.1 Transparent Child						 */
+/* ----------------------------------------------*/
+.transparent #nav-menu ul li a:hover,
+.transparent #nav-menu ul li a.active{
+	color:#ff7f50;
+}
+
+/*===============================================*/
+/* 05. LOGO	 	 	 							 */
+/*===============================================*/
+
+/* ----------------------------------------------*/
+/* 05.1 Default (Nav) Logo						 */
+/* ----------------------------------------------*/
+.nav-logo.rounded{
+	background-color:#ff7f50;
+}
+
+/* ----------------------------------------------*/
+/* 05.2	Wedding Logo							 */
+/* ----------------------------------------------*/
+.top-heart{
+	color:#ff7f50;
+}
+
+.bottom-heart{
+	color:#ff7f50;
+}
+
+/*===============================================*/
+/* 06. MAIN-SLIDER					 		 	 */
+/*===============================================*/
+
+/* ----------------------------------------------*/
+/* 06.2 Main Slider Flexslider			  		 */
+/* ----------------------------------------------*/
+
+
+/* 06.2.1 Main Slider Flexslider Control Nav & Paging */
+/* ----------------------------------------------*/
+#main-slider .flex-control-nav li a.flex-active,
+#main-slider .flex-control-nav li a:hover {
+	background-color:#ff7f50;
+}
+
+#main-slider .flex-direction-nav a:hover {
+	color:#ff7f50;
+}
+
+
+/*===============================================*/
+/* 07. PAGE										 */
+/*===============================================*/
+
+/* ----------------------------------------------*/
+/* 07.1 PAGE ELEMENT	 	 					 */
+/* ----------------------------------------------*/
+
+/* 07.1.3 Image & Video Divider					 */
+/* ----------------------------------------------*/
+
+/* 07.1.4 Space and Line Divider				 */
+/* ----------------------------------------------*/
+
+
+/*-----------------------------------------------*/
+/* 07.1.5 Popup Template						 */
+/*-----------------------------------------------*/
+
+
+/*-----------------------------------------------*/
+/* 07.1.6 Autocrop Image						 */
+/*-----------------------------------------------*/
+
+
+/*-----------------------------------------------*/
+/* 07.1.7 Popup Video							 */
+/*-----------------------------------------------*/
+
+
+
+/*-----------------------------------------------*/
+/* 07.1.8 Map									 */
+/*-----------------------------------------------*/
+.big-circle{
+	background-color: rgba(255, 127, 80, 0.8); 	
+}
+
+/*-----------------------------------------------*/
+/* 07.1.10 Circle Countdown						*/
+/*-----------------------------------------------*/
+.circle-countdown .countdown-amount {
+	background-color:#ff7f50;
+}
+
+
+/*===============================================*/
+/* 08. ICON										 */
+/*===============================================*/
+
+/*------------------------------------------------*/
+/* 08.2 Shape / Color							  */
+/*------------------------------------------------*/
+
+/* 08.2.1 Default								  */
+/*------------------------------------------------*/
+.de-icon{
+	color:#ff7f50;
+}
+
+.de-icon.square, .de-icon.circle, .de-icon.rounded{
+	background-color:#ff7f50;
+}
+
+.de-icon.outline{
+	background-color:transparent;
+	color:#ff7f50;
+	border:1px solid;
+}
+
+a:hover .de-icon{
+	color:#fe8e65;
+}
+
+a:hover .de-icon.square, a:hover .de-icon.circle, a:hover .de-icon.rounded, a:hover .de-icon.outline{
+	background-color:#fe8e65;	
+}
+
+/* 08.2.2 Light-1						 		 */
+/*------------------------------------------------*/
+.de-icon.light-1.square, .de-icon.light-1.circle, .de-icon.light-1.rounded{
+	color:#ff7f50;
+}
+
+.de-icon.light-1.outline{
+	background-color:transparent;
+	color:#FFF;
+	border:1px solid #FFF;
+}
+
+a:hover .de-icon.light-1	{
+	color:#ff7f50;
+}
+
+a:hover .de-icon.light-1.square, a:hover .de-icon.light-1.circle, a:hover .de-icon.light-1.rounded, a:hover .de-icon.light-1.outline{
+	background-color:#ff7f50;
+	border-color: #ff7f50;
+}
+
+/* 08.2.3 Light-2						  */
+/*------------------------------------------------*/
+a:hover .de-icon.light-2.square, a:hover .de-icon.light-2.circle, a:hover .de-icon.light-2.rounded, a:hover .de-icon.light-2.outline{
+	background-color:#ff7f50;
+	border-color: #ff7f50;
+}
+
+/*===============================================*/
+/* 09. BUTTON									 */
+/*===============================================*/
+
+/* ----------------------------------------------*/
+/* 09.1 Color			 					 	 */
+/* ----------------------------------------------*/
+
+/* 09.1.1 Default		 					 	 */
+/* ----------------------------------------------*/
+
+a.de-button, span.de-button, input[type=submit]{
+	background-color:#ff7f50;
+	border:solid 1px #ff7f50;
+}
+
+a.de-button.outline, span.de-button.outline, input[type=submit].outline{
+	border:solid 1px #ff7f50;
+	color:#ff7f50;
+}
+
+a.de-button:hover, input[type=submit]:hover{	
+	background-color:#fe8e65;
+	border-color: #fe8e65;
+	color:#FFF;
+}
+
+/* 09.1.2 Outline Dark	 					 	 */
+/* ---------------------------------------------- */
+a.de-button.outline.dark-1:hover, span.de-button.outline.dark-1:hover, input[type=submit].outline.dark-1:hover{
+	background-color:#fe8e65;
+	border-color: #fe8e65;
+	color:#FFF;
+}
+
+/* 09.1.3 Light-1		 					 	 */
+/* ----------------------------------------------*/
+a.de-button.light-1, span.de-button.light-1, input[type=submit].light-1{
+	color:#ff7f50;
+}
+
+a.de-button.light-1:hover, input[type=submit].light-1:hover{
+	background-color:#ff7f50;
+	border-color: #ff7f50;
+}
+
+/* 09.1.4 Light-2			 					 */
+/* ----------------------------------------------*/
+a.de-button.light-2:hover, input[type=submit].light-2:hover{
+	background-color:#ff7f50;
+	border-color: #ff7f50;
+}
+
+/*===============================================*/
+/* 12. FORM										 */
+/*===============================================*/
+
+/*-----------------------------------------------*/
+/* 12.5 Button									 */
+/*-----------------------------------------------*/
+form .btn-primary:hover,
+form .btn-primary:focus,
+form .btn-primary.focus,
+form .btn-primary:active,
+form .btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+	background-color:#ff7f50; 
+	border-color:#ff7f50;
+}
+
+/*-----------------------------------------------*/
+/* 12.8 Message									 */
+/*-----------------------------------------------*/
+.message .bg-danger{
+	background-color:#ff7f50; 
+}
+
+
+/*===============================================*/
+/* 15. OTHER PAGES								 */
+/*===============================================*/
+
+/* ----------------------------------------------*/
+/* 15.3 Location				 			 	 */
+/* ----------------------------------------------*/
+#arrow-up-mobile a:hover{
+	background-color:#ff7f50;
+}
+
+/* ----------------------------------------------*/
+/* 15.4 Bridesmaid / Groomsmen	 			 	 */
+/* ----------------------------------------------*/
+.heart-icon{
+	color:#ff7f50; 
+}
+
+
+/*===============================================*/
+/* 16. ONEPAGE SECTION							 */
+/*===============================================*/
+
+/* ----------------------------------------------*/
+/* 16.1 Our Story Section						 */
+/* ----------------------------------------------*/
+.story-date{
+	background-color:#ff7f50; 
+}
+
+
+/*===============================================*/
+/* 18. PLUGIN CUSTOM							 */
+/*===============================================*/
+ 
+/* -------------------------------------------*/
+/* 18.1 Owl Carousel 						  */
+/* -------------------------------------------*/
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+	background: #ff7f50;
+}
+
+/*===============================================*/
+/* 18. MEDIA SCREEN		 						 */
+/*===============================================*/
+
+
+@media screen and (max-width: 991px) {	
+/* ----------------------------------------------*/
+/* 03.1 Parent Menu 						     */
+/* ----------------------------------------------*/
+#nav-menu li a:hover{
+	background-color:#ff7f50 !important;
+}
+
+#nav-menu li a.active,
+.transparent #nav-menu li a.active{
+	color:#ff7f50;
+}

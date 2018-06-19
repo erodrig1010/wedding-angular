@@ -1,0 +1,3762 @@
+@charset "utf-8";
+
+/*============================== 
+	- Template Name: MARRY - Responsive HTML Wedding Template
+	- Author: DoubleEight
+	- Version: 1.0.0
+	- Website: themeforest.net/user/doubleeight/portfolio
+================================= */	
+
+/*---------------------- 
+	Stylesheet Guide
+------------------------
+00. PRELOADER
+
+01. GENERAL
+			
+02. NAV BAR
+	02.1 Width & Color
+		02.1.1 Fixed Width
+		02.1.2 Fluid Width
+		02.1.3 Top Bar
+		02.1.4 Bottom Bar
+		02.1.5 Transparent & Block Color
+	02.2 Logo & Nav Position
+		02.2.1 Nav Center
+		02.2.2 Nav Left
+		02.2.3 Nav Right
+		
+03. NAV MENU
+	03.1 Parent Menu
+		03.1.1 Transparent
+		03.1.2 Additional Class For Nav Center
+	03.2 Child Menu
+		03.2.1 Transparent Child Menu
+		03.2.2 Child-Parent Arrow
+		03.2.3 More Child
+	03.3 Mobile Nav
+		
+05. LOGO
+	05.1 Default (Nav) Logo
+	05.2 Wedding Logo 
+	05.3 IMG Logo
+
+06. MAIN-SLIDER
+	06.1 Main Slider Height
+	06.2 Main Slider Flexslider
+		06.2.1 Main Slider Flexslider Control Nav & Paging
+	06.3 Main Slider Slide Image and Video
+	06.4 Main Slider Title
+		06.4.1 Outter Wrapper 
+		06.4.2 Inner Wrapper
+		06.4.3 Title Wrapper
+		06.4.4 Title Alignment
+		06.4.5 Couple Name Title
+		06.4.6 Default Page Title		
+	06.5 Each Slide Overlay
+	06.6 Each Slide Caption
+	06.7 Hack Flexslider Fade for Firefox & IE11
+	06.8 Loop Animation
+		06.8.1 Zoom
+		06.8.2 Left-Right
+	06.9 Video Audio Control
+	06.10 Slide Arrow
+		
+07. PAGE
+	07.1 Page Element
+		07.1.1 Title-Excerpt White Box
+		07.1.2 Align Middle Wrapper	
+		07.1.3 Image & Video Divider
+		07.1.4 Space & Line Divider
+		07.1.5 Popup Template
+		07.1.6 Autocrop Image
+		07.1.7 Popup Video
+		07.1.8 Map
+		07.1.9 Box Countdown
+		07.1.10 Circle Countdown
+		07.1.11 Section Block
+		07.1.12 Divider Quote
+		07.1.13 Loader Animation
+
+08. ICON
+	08.1 Size
+	08.2 Shape / Color
+		08.2.1 Default	
+		08.2.2 Light-1
+		08.2.3 Light-2
+		08.2.4 Circle, Rounded, Square
+	08.3 Effect Zoom 
+	08.4 Effect Rotate
+	08.5 Effect Square/Rounded To Circle	
+	
+09. BUTTON
+	09.1 Color
+		09.1.1 Default
+		09.1.2 Outline Dark
+		09.1.3 Light-1	
+		09.1.4 Light-2
+	09.2 Size
+	09.3 Rounded	
+			
+10. PHOTO ITEM
+	10.1 Image
+	10.2 Layer
+		10.2.1 Layer : Second Image
+		10.2.2 Layer : Black Overlay 
+		10.2.3 Layer : Photo Caption
+		10.2.4 Layer : Icon / Button Link  
+	10.3 on Hover Animation
+		10.3.1 on Hover Animation Duration
+		10.3.2 on Hover Animation Delay	
+		10.3.3 on Hover Zoom In	
+		10.3.4 on Hover Zoom In and Rotate
+		10.3.5 on Hover Fade Out		
+
+11. MASONRY GALLERY
+	11.1 Three Column No Gutter
+	11.2 Three Column With Gutter
+	11.3 Four Column No Gutter
+	11.4 Four Column With Gutter
+	11.5 Five Column No Gutter
+	11.6 Five Column With Gutter	
+	
+12. FORM
+	12.1 Form Group
+	12.2 Form Control
+	12.3 Input Group
+	12.4 Label
+	12.5 Button
+	12.6 Checkbox and Radio(Custom)
+	12.7 Select Option
+	12.8 Message
+	12.9 Validation	
+		
+13. HOME PAGE
+	13.1 Couple Section
+	13.2 Adventure Begin
+	13.3 The Wedding Section
+	13.4 Footer Section
+	
+14. HOME PAGE 2
+	
+15. OTHER PAGES
+	15.1 About / Story Page
+	15.2 Our Story
+	15.3 Location
+	15.4 Bridesmaid / Groomsmen
+	15.5 Gift Registry
+	15.6 Gallery
+	15.7 Accomodation
+
+16. ONEPAGE SECTION
+	16.1 Our Story Section
+	16.2 Save the Date Section
+	16.3 Counting Section
+	16.4 Attending Section
+	16.5 Gift Registry Section
+	
+17. OTHER SECTIONS
+	17.1 Event Carousel
+
+18. PLUGIN CUSTOM
+	18.1 Owl Carousel
+	18.2 Magnific Popup
+
+18. MEDIA SCREEN
+	- @media screen and (max-width: 1200px)
+	- @media screen and (max-width: 991px)
+	- @media screen and (max-width: 991px) and (orientation : landscape)
+	- @media screen and (max-width: 768px)
+	- @media screen and (max-width: 480px)
+	- @media screen and (max-width: 320px)
+	
+*/
+
+
+
+/* Theme Color 			: #f98d8a */
+/* Light Theme Color 	: #fa9996 */
+/* RGB Color			: 249, 141, 138 */
+
+/*===============================================*/
+/* 00. PRELOADER		 						 */
+/*===============================================*/
+/* See: */
+/* - preloader.css */
+
+
+/*===============================================*/
+/* 01. GENERAL			 						 */
+/*===============================================*/
+body{
+	font-family: 'Raleway', sans-serif;
+	color:#666;
+	background-color:#faf8f8;
+	font-size:16px;
+	line-height:27px;
+}
+
+h1,h2,h3,h4,h5,h6,
+.h1, .h2, .h3, .h4, .h5, .h6{
+	font-family: 'Montserrat', sans-serif;
+	font-weight:700;
+}
+
+h1, h2, h3, h4, h5, h6, 
+.h1, .h2, .h3, .h4, .h5, .h6,
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
+.h1 a, .h2 a, .h3 a, .h4 a, .h5 a, .h6 a{
+	color:#4a4a4a;
+}
+
+h1 a:hover, h2 a:hover, h3 a:hover, 
+h4 a:hover, h5 a:hover, h6 a:hover{
+	color:#f98d8a;
+}
+
+h1, .h1{
+	font-size:54px;
+	letter-spacing:4px;
+	margin: 40px 0;
+}
+
+h1.bigger, .h1.bigger{
+	font-size:60px;
+}
+
+h2, .h2{
+	font-size:42px;
+	letter-spacing:4px;
+	margin: 40px 0;
+}
+
+h3, .h3{
+	font-size:30px;
+	letter-spacing:4px;
+	margin: 30px 0;
+}
+
+h4, .h4{
+	font-size:24px;
+	letter-spacing:2px;
+	line-height:30px;
+	margin:20px 0;
+}
+
+h5, .h5{
+  font-size: 16px;
+  letter-spacing:2px;
+  margin:20px 0;
+  line-height:24px;
+}
+
+h6, .h6{
+  font-size: 14px;
+  letter-spacing:2px;
+  margin:10px 0;
+  line-height:24px;
+}
+
+h1.inline, h2.inline, h3.inline,
+h4.inline, h5.inline, h6.inline{
+	display:inline;
+	vertical-align:middle; 
+}
+
+p{
+	font-family: 'Raleway', sans-serif;
+	font-size:16px;
+	line-height:27px;
+	margin-bottom:25px;
+}
+
+p.lead{
+	font-size:20px;
+	line-height:30px;
+	font-weight:normal;
+}
+
+a{
+	text-decoration:none;
+	color:#f98d8a;
+}
+
+a.grey-link{
+	color:#6a6a6a;
+}
+
+a.with-underline{
+	text-decoration:underline;
+}
+
+a:hover{
+	text-decoration:none;
+	color:#f98d8a;
+}
+
+.clearboth{
+	clear:both;
+}
+
+.no-padding{
+	padding:0;
+}
+
+.no-margin{
+	margin:0;
+}
+
+img.fullwidth{
+	width:100%;
+}
+
+img.with-border{
+	border:1px solid #6a6a6a;
+}
+
+img.rounded{
+	border-radius:50%;
+}
+
+.hide-on-mobile{
+	display:block;
+}
+
+.hide-on-desktop{
+	display:none;
+}
+
+.theme-color{
+	color:#f98d8a;
+}
+
+.paragraph-row-wrapper{
+	margin:40px 0;
+}
+
+/*===============================================*/
+/* 02. NAV BAR  	 							 */
+/*===============================================*/
+#nav-header{
+	position:relative;	
+	z-index:1000; 
+}
+
+#nav-bar{
+	position:relative;
+	height:90px;
+	width:100%;
+	z-index:1000;
+}
+
+#nav-bar.hide-first{
+	visibility:hidden;
+}
+
+/* ----------------------------------------------*/
+/* 02.1 Width & Color 							 */
+/* ----------------------------------------------*/
+
+/* 02.1.1 Fixed-width 							 */
+/* ----------------------------------------------*/
+#nav-bar.fixed-width #nav-wrapper{
+	position:relative;
+	height:inherit;
+	width:1170px;
+	margin:0 auto;	
+	padding:0 30px;
+}
+
+/* 02.1.2 Fluid-width 							 */
+/* ----------------------------------------------*/
+#nav-bar.fluid-width #nav-wrapper{
+	position:relative;
+	height:inherit;
+	width:100%;
+	padding:0 100px;
+}
+
+/* 02.1.3 Top Bar 								 */
+/* ----------------------------------------------*/
+#nav-bar.top-bar{
+	position:absolute;
+	/*background-color:transparent;*/
+	margin:auto; 
+	left:0; 
+	right:0;
+}
+
+#nav-bar.top-bar.stick-it{
+	position:fixed;
+	height:90px; 
+	width:100%;
+	background-color:#FFF;
+	z-index:1500;
+	visibility:visible;
+	/*-webkit-transform: translateZ(0);*/
+}
+
+/* 02.1.4 Bottom Bar 							 */
+/* ----------------------------------------------*/
+#nav-bar.bottom-bar.inside{
+	position:absolute;
+	/*background-color:transparent;*/
+	bottom:0;
+}
+
+/*#nav-bar.bottom-bar.outside{
+	position:relative;
+}*/
+
+#nav-bar.bottom-bar.stick-it{
+	position:fixed;
+	height:90px; 
+	width:100%;
+	background-color:#FFF;
+	z-index:1500;
+	top:0;
+	bottom:auto;
+	/*-webkit-transform: translateZ(0)*/
+	
+}
+
+/* 02.1.5 Transparent & Block Color 			 */
+/* ----------------------------------------------*/
+#nav-bar.transparent{
+	/*position:relative;*/ 
+	background-color:transparent;
+}
+
+#nav-bar.block-color{
+	/*position:relative; */ 
+	background-color:#FFF;
+}
+
+/*.is-sticky #nav-bar.block-color{
+	-webkit-transform: translateZ(0)
+}*/
+
+/* ----------------------------------------------*/
+/* 02.2 Logo & Nav Position						 */
+/* ----------------------------------------------*/
+
+.logo-wrapper{
+	position:relative; 
+	width:60px; 
+	height:60px;
+	margin-top:15px;
+}
+
+#nav-menu{	
+	list-style-type:none; 
+	margin:0; 
+	padding:25px 0 0 0;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:700;
+	font-size:14px;
+	letter-spacing:1px;
+	z-index:1000;
+}
+
+/* 02.2.1 Nav Center 							 */
+/* ----------------------------------------------*/
+#nav-bar.nav-center .logo-wrapper{
+	position:absolute; 
+	margin:auto; 
+	top:0; 
+	left:0; 
+	right:0;
+	bottom:0;
+}
+
+#nav-bar.nav-center.hide-logo-on-desktop .logo-wrapper{
+	display:none
+}
+
+#nav-bar.nav-center #nav-menu{
+	text-align:center; 
+}
+
+/* 02.2.2 Nav Left 								 */
+/* ----------------------------------------------*/
+#nav-bar.nav-left .logo-wrapper{
+	float:right;
+}
+
+#nav-bar.nav-left #nav-menu{
+	float:left;
+	text-align:left;
+	width:90%;
+}
+
+/* 02.2.3 Nav Right 							 */
+/* ----------------------------------------------*/
+#nav-bar.nav-right .logo-wrapper{
+	float:left;
+}
+
+#nav-bar.nav-right #nav-menu{
+	float:right;
+	text-align:right;
+	width:90%;
+}
+
+
+/*===============================================*/
+/* 03. NAV MENU	 	 							 */
+/*===============================================*/
+
+/* ----------------------------------------------*/
+/* 03.1 Parent Menu								 */
+/* ----------------------------------------------*/
+#nav-menu > li{
+	position:relative;
+	display:inline;	
+}
+
+/*#nav-menu > li:before{
+  	font-family: "fontello";
+  	font-style: normal;
+  	font-weight: normal;
+  	font-size:10px;
+	content: '\e9bd';
+	color:#f98d8a;
+	text-align:center;
+}
+
+#nav-menu > li.first-child:before{
+	content: "";
+	margin-left: 0;
+}*/
+
+#nav-menu > li a{
+	color:#666;
+	text-decoration:none;
+}
+
+#nav-menu > li > a{
+	display:inline-block;
+	padding:6px 11px;
+	margin:0 8px;
+	border:solid transparent 1px;	
+	border-radius:5px;
+}
+
+#nav-menu > li > a:hover,
+#nav-menu > li > a.active{
+	/*color:#f98d8a;*/
+	border-color:#b3b3b3;
+}
+
+/* 03.1.1 Transparent 							 */
+/* ----------------------------------------------*/
+.transparent #nav-menu > li > a{
+	color:#FFF;
+}
+
+.transparent #nav-menu > li > a:hover,
+.transparent #nav-menu > li > a.active{
+	color:#FFF;
+	border-color:#FFF;
+}
+
+.transparent.stick-it #nav-menu > li > a{
+	color:#666
+}
+
+.transparent.stick-it #nav-menu > li > a:hover,
+.transparent.stick-it #nav-menu > li > a.active{
+	border-color:#b3b3b3;
+}
+
+/* 03.1.2 Additional Class For Nav Center 		 */
+/* ----------------------------------------------*/
+.nav-center .first-child-margin{
+	margin-left:0px;
+}
+
+.nav-center .last-child-margin{
+	margin-right:15px;
+}
+
+.nav-center .split-margin{
+	margin-left:100px;
+}
+
+.nav-center.hide-logo-on-desktop .first-child-margin,
+.nav-center.hide-logo-on-desktop .last-child-margin,
+.nav-center.hide-logo-on-desktop .split-margin{
+	margin:0
+}
+
+/* ----------------------------------------------*/
+/* 03.2 Child Menu								 */
+/* ----------------------------------------------*/
+#nav-menu ul{
+	position:absolute;
+	display:none;
+	width:250px;	
+	left:8px;
+	list-style-type:none;
+	padding:30px 0 0 0;
+	text-align:left;
+	font-weight:400;
+	letter-spacing:0;
+}
+
+#nav-menu li:hover > ul{
+	display:block;
+}
+
+#nav-menu ul li{
+	position:relative;
+	width:100%;
+}
+
+#nav-menu ul li a{
+	display:block;
+	width:100%;
+	margin:0px;
+	border-radius:0;
+	border:solid thin #dcdcdc;
+	border-bottom:none;
+	padding:18px 20px;
+	background-color:#FFF;
+}   
+
+#nav-menu ul li:first-child a{
+	border-radius:3px 3px 0 0;
+} 
+
+#nav-menu ul li:last-child a{
+	border-radius:0 0 3px 3px;
+}   
+  
+
+#nav-menu ul li a:hover,
+#nav-menu ul li a.active{	
+	color:#f98d8a;
+}
+
+/* 03.2.1 Transparent Child						 */
+/* ----------------------------------------------*/
+.transparent #nav-menu ul{
+	padding:25px 0 0 0;
+}
+
+.transparent.stick-it #nav-menu ul{
+	padding:30px 0 0 0;
+}
+
+.transparent #nav-menu ul li a{
+	color:#666;
+}
+
+.transparent #nav-menu ul li a:hover,
+.transparent #nav-menu ul li a.active{
+	color:#f98d8a;
+}
+
+/* 03.2.2 Child-Parent Arrow 					 */
+/* ----------------------------------------------*/
+#nav-menu li > ul li a:after { 
+	content: '>'; 
+	position:absolute;
+	right:15px;
+} 
+
+#nav-menu li > ul li a:only-child:after { 
+	content: ''; 
+}
+
+/* 03.2.3 More Child 						  	 */
+/* ----------------------------------------------*/
+#nav-menu ul ul{
+	top:0;
+	left:100%;
+	padding:0 0 0 5px !important;
+	border:none;
+}
+
+#nav-menu ul ul.on-left{
+	left:-100%;
+}
+
+#nav-menu ul ul.move1-to-top{
+	top:-100%;
+}
+
+#nav-menu ul ul.move2-to-top{
+	top:-200%;
+}
+
+#nav-menu ul ul.move3-to-top{
+	top:-300%;
+}
+
+#nav-menu ul ul.move4-to-top{
+	top:-400%;
+}
+
+#nav-menu ul ul.move5-to-top{
+	top:-500%;
+}
+
+/* ----------------------------------------------*/
+/* 03.3 Mobile Nav								 */
+/* ----------------------------------------------*/
+#mobile-nav{
+	display:none;
+}
+
+#mobile-nav,
+.transparent.stick-it #mobile-nav{
+	color:#666;
+}
+
+.transparent #mobile-nav{
+	color:#FFF;
+}
+
+
+/*===============================================*/
+/* 05. LOGO	 	 	 							 */
+/*===============================================*/
+
+/* ----------------------------------------------*/
+/* 05.1 Default (Nav) Logo						 */
+/* ----------------------------------------------*/
+.nav-logo{	
+	font-family: 'Montserrat', sans-serif;
+	font-size:22px; 
+	letter-spacing:2px; 
+	font-weight:700;
+	color:#666;
+	text-align:center;
+	padding-top:16px;
+}
+
+.transparent .nav-logo{
+	color:#FFF;
+}
+
+.transparent.stick-it .nav-logo{
+	color:#666;
+}
+
+.nav-logo.rounded{
+	width:100%;
+	height:100%;
+	background-color:#f98d8a;
+	border-radius:50%;
+	font-size:18px;
+	color:#FFF;
+	padding-top:16px
+}
+
+.nav-logo.rounded .theme-color{
+	color:#FFF;
+}
+
+.transparent.stick-it .nav-logo.rounded{
+	color:#FFF;
+}
+
+
+/* ----------------------------------------------*/
+/* 05.2	Wedding Logo							 */
+/* ----------------------------------------------*/
+.logo-scale-wrapper{
+	-ms-transform: scale(0.9, 0.9); 
+	-webkit-transform: scale(0.9, 0.9);
+	 transform: scale(0.9, 0.9);	 
+	 -ms-transform-origin: left top;
+	 -webkit-transform-origin: left top;
+	 transform-origin: left top;
+}
+
+.wedding-logo{
+	position:relative; 
+	width:70px; 
+	height:70px; 
+	margin:0 auto; 
+	margin-bottom:30px;
+}
+
+.transparent .wedding-logo{
+	color:#FFF;
+}
+
+.transparent.stick-it .wedding-logo{
+	color:#666;
+}
+
+.line-1{
+	position:absolute; 
+	width:77px; 
+	height:5px; 
+	top:30px; 
+	left:-3px; 
+	border-bottom:2px solid #FFF; 
+	-ms-transform: rotate(45deg); 
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.line-2{
+	position:absolute; 
+	width:77px; 
+	height:5px; 
+	top:30px; 
+	right:-2px; 
+	border-bottom:2px solid #FFF; 
+	-ms-transform: rotate(-45deg); 
+	-webkit-transform: rotate(-45deg); 
+	transform: rotate(-45deg);
+}
+
+.transparent.stick-it .line-1,
+.transparent.stick-it .line-2,
+.block-color .line-1,
+.block-color .line-2{
+	border-color:#666; 
+}
+
+.his-initial{
+	position:absolute; 
+	font-family: 'Montserrat', sans-serif; 
+	font-weight:700; 
+	font-size:18px; 
+	top:20px;
+}
+
+.her-initial{
+	position:absolute; 
+	font-family: 'Montserrat', sans-serif; 
+	font-weight:700; 
+	font-size:18px; 
+	top:20px; 
+	right:0;
+}
+
+.top-heart{
+	position:absolute; 
+	font-family: 'fontello', sans-serif; 
+	font-weight:700; 
+	font-size:11px; 
+	top:2px; 
+	left:26px; 
+	color:#f98d8a;
+}
+
+.bottom-heart{
+	position:absolute;
+	font-family: 'fontello', sans-serif; 
+	font-weight:700; 
+	font-size:11px; 
+	bottom:2px; 
+	left:26px; 
+	color:#f98d8a;
+}
+
+/* ----------------------------------------------*/
+/* 05.3	IMG Logo								 */
+/* ----------------------------------------------*/
+.img-logo, .img-logo img{
+	width:100%;
+}
+
+
+/*===============================================*/
+/* 06. MAIN-SLIDER					 		 	 */
+/*===============================================*/
+#main-slider {
+	margin:0; 
+	padding:0;
+	position:relative;
+	overflow:hidden;
+}
+
+/* ----------------------------------------------*/
+/* 06.1 Main Slider Height					     */
+/* ----------------------------------------------*/
+/* #main-slider.fullscreen - script.js			 */
+
+#main-slider.fixed-height{
+	position:relative;
+	height:580px;
+}
+
+/* ----------------------------------------------*/
+/* 06.2 Main Slider Flexslider			  		 */
+/* ----------------------------------------------*/
+#main-slider.flexslider { 
+	border: none; 
+}
+
+#main-slider .slides,
+#main-slider.flexslider .slides li{
+	position:relative;
+	/*height:inherit;*/
+	height:100%;
+	width:100%;
+	overflow:hidden;
+}
+
+#main-slider.flexslider .flex-viewport{
+	position:relative;
+	/*height:inherit;*/
+	height:100%;
+}
+
+/* 06.2.1 Main Slider Flexslider Control Nav & Paging */
+/* ----------------------------------------------*/
+#main-slider .flex-control-nav, .flex-control-paging{
+	 background-color:transparent !important;
+	 margin:auto;
+	 padding:0;
+	 position:absolute;
+	 right:0;
+	 bottom:80px;
+	 width:28px;
+	 z-index:4;
+	 height:auto;
+	 
+}
+
+#main-slider .flex-control-nav li{
+	display:block;
+	margin:7px 0;
+	
+}
+
+#main-slider .flex-control-nav li a{
+	background-color:#FFF;
+	width:8px;
+	height:8px;
+}
+
+#main-slider .flex-control-nav li a.flex-active,
+#main-slider .flex-control-nav li a:hover {
+	background-color:#f98d8a;
+}
+
+#main-slider.flexslider .flex-direction-nav .flex-prev { left: 0px; }
+#main-slider.flexslider .flex-direction-nav .flex-next { right: 0px; text-align: right; }
+#main-slider.flexslider:hover .flex-prev { opacity: 0.7; left: 100px; }
+#main-slider.flexslider:hover .flex-next { opacity: 0.7; right: 100px; }
+
+
+#main-slider .flex-direction-nav a {
+	z-index:4;
+	line-height:40px;
+	color:#FFF;
+}
+
+#main-slider .flex-direction-nav a:hover {
+	color:#f98d8a;
+}
+
+/* ----------------------------------------------*/
+/* 06.3 Main Slider Slide Image and Video	 	 */
+/* ----------------------------------------------*/
+
+#main-slider .slide-image {
+	position:relative;
+	height:inherit;
+	width:100%;
+	background-size:cover; 
+	background-position:50% 50%;
+	background-color:#FFF;
+	-webkit-transform: translateZ(0);
+}
+
+#main-slider .slide-image video{
+	position:absolute; 
+	margin:auto; 
+	top:0; 
+	left:0;
+}
+	
+#main-slider .video-button-wrapper{
+	margin-top:0px;
+}
+
+
+
+/* ----------------------------------------------*/
+/* 06.4 Main Slider Title					     */
+/* ----------------------------------------------*/
+
+/* 06.4.1 Outter Wrapper */
+/* ----------------------------------------------*/
+.slide-title-outter-wrapper{
+	position:absolute; 
+	width:100%; 
+	/*height:inherit;*/
+	height:100%; 
+	left:0; 
+	z-index:3;
+	overflow:hidden;
+}
+
+/* 06.4.2 Inner Wrapper */
+/* ----------------------------------------------*/
+.slide-title-inner-wrapper{
+	width:1170px; 
+	height:inherit; 
+	margin:0 auto; 
+	display: table;
+}
+
+/* 06.4.3 Title Wrapper */
+/* ----------------------------------------------*/
+.slide-title{ 
+	display: table-cell;
+	text-align:center;	
+    color:#FFF;
+}
+
+.slide-title h1, .slide-title h2, .slide-title h3,
+.slide-title h4, .slide-title h5, .slide-title h6{
+	color:#FFF;
+}
+
+.slide-title h1, .slide-title .h1{
+	margin:20px 0;
+}
+
+
+/* 06.4.4 Title Alignment */
+/* ----------------------------------------------*/
+.slide-title.align-middle{
+	vertical-align: middle;
+}
+.slide-title.align-top{
+	vertical-align: top;
+	/*padding-top:100px;*/
+}
+.slide-title.align-bottom{
+	vertical-align: bottom;
+	/*padding-bottom:0px;*/
+}
+
+/* 06.4.5 Couple Name Title 					 */
+/* ----------------------------------------------*/
+#slide-couplename-wrapper{
+	margin-top:110px
+}
+
+#slide-his-name{
+	position:relative; 
+	font-family: 'Great Vibes', cursive; 
+	font-size:115px;
+}
+
+#slide-and-text{
+	position:relative; 
+	font-family: 'Great Vibes', cursive; 
+	font-size:54px; 
+	margin-top:30px;
+}
+
+#curve-graphic{
+	position:absolute; 
+	margin:auto; 
+	top:2px;	 
+	left:35px; 
+	right:0
+}
+
+#and-text{
+	position:absolute; 
+	top:10px; 
+	margin:auto; 
+	left:35px; 
+	right:0
+}
+
+#slide-her-name{
+	position:relative; 
+	font-family: 'Great Vibes', cursive; 
+	font-size:115px; 
+	margin-top:130px;
+}
+
+#slide-other-text{
+	font-family: 'Montserrat', sans-serif; 
+	font-size:14px; 
+	letter-spacing:6px; 
+	margin-top:100px;
+}
+
+/* 06.4.6 Default Page Title */
+/* ----------------------------------------------*/
+#slide-pagetitle-wrapper{
+	margin-top:90px
+}
+
+/* ----------------------------------------------*/
+/* 06.5 Each Slide Overlay					     */
+/* ----------------------------------------------*/
+
+.slide-overlay{
+	position:absolute;
+	top:0;
+	display:block; 
+	width:inherit; 
+	height:inherit; 
+	background-color:#000; 
+	opacity:0.3;
+	-webkit-transform: translateZ(0);
+}
+
+/* ----------------------------------------------*/
+/* 06.6 Each Slide Caption					     */
+/* ----------------------------------------------*/
+.slide-caption{
+	position:absolute;
+	top:0;
+	display:block;
+	width:inherit; 
+	height:inherit; 
+	color:#fff;	
+}
+
+.use-animation{
+	visibility:hidden
+}
+
+/* ----------------------------------------------*/
+/* 06.7 Hack Flexslider Fade for Firefox & IE11	 */
+/* ----------------------------------------------*/
+.flexslider .slides.css-fade > li { 
+  	-webkit-transition: opacity 1s ease; 
+	-moz-transition: opacity 1s ease;
+ 	transition: opacity 1s ease; 
+}
+
+/* ----------------------------------------------*/
+/* 06.8 Loop Animation						     */
+/* ----------------------------------------------*/
+
+/* 06.8.1 Zoom									 */
+/* ----------------------------------------------*/
+@-webkit-keyframes zoom-in-out {
+   0% {-webkit-transform: scale(1); /* Chrome, Safari, Opera */
+    transform: scale(1);}
+	50% {-webkit-transform: scale(1.1); /* Chrome, Safari, Opera */
+    transform: scale(1.1);}
+	100%	{-webkit-transform: scale(1); /* Chrome, Safari, Opera */
+    transform: scale(1);}
+}
+
+@keyframes zoom-in-out {
+    0% {-webkit-transform: scale(1); /* Chrome, Safari, Opera */
+    transform: scale(1);}
+	50% {-webkit-transform: scale(1.1); /* Chrome, Safari, Opera */
+    transform: scale(1.1);}
+	100%	{-webkit-transform: scale(1); /* Chrome, Safari, Opera */
+    transform: scale(1);}
+}
+
+.zoom.animate{
+	-webkit-transform: scale(1); /* Chrome, Safari, Opera */
+    transform: scale(1);
+	-webkit-animation: zoom-in-out 30s; /* Chrome, Safari, Opera */
+    animation: zoom-in-out 30s;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+
+/* 06.8.2 Left-Right							 */
+/* ----------------------------------------------*/
+@-webkit-keyframes move-left-right {
+   0% { background-position: 50% 50%; }
+    25% { background-position: 100% 50%; }
+	50% { background-position: 50% 50%; }
+	75%	{ background-position: 0% 50%; }
+	100%	{ background-position: 50% 50%; }
+}
+
+@keyframes move-left-right {
+    0% { background-position: 50% 50%; }
+    25% { background-position: 100% 50%; }
+	50% { background-position: 50% 50%; }
+	75%	{ background-position: 0% 50%; }
+	100%	{ background-position: 50% 50%; }
+}
+
+.left-right.animate{
+	background-position:50% 50%;
+	-webkit-animation: move-left-right 240s; /* Chrome, Safari, Opera */
+    animation: move-left-right 240s;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+/* ----------------------------------------------*/
+/* 06.9 Video Audio Control					 	 */
+/* ----------------------------------------------*/
+.video-audio-control{
+	height: 50px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	z-index: 4;
+	padding-right:10px;
+	text-align:right;
+	color:#FFF;
+}
+
+.video-audio-control.fixed-position{
+	position:fixed;
+}
+
+.video-audio-control.mobile{
+	display:none;
+}
+
+#soundcloud-track{
+	position:absolute;
+	z-index:2000;
+	top:-200px;
+	right:20px;
+	width:200px;
+	opacity:0;
+	-webkit-transition: all 0.5s; 
+		-ms-transition: all 0.5s;
+		 -o-transition: all 0.5s;
+			transition: all 0.5s;
+	-webkit-transform: scale(0); 
+		-ms-transform: scale(0);
+		 -o-transform: scale(0);  
+			transform: scale(0);			
+	 transform-origin: bottom right;	
+}
+
+#soundcloud-track.open-window{
+	opacity:1;
+	-webkit-transform: scale(1); 
+		-ms-transform: scale(1);
+		 -o-transform: scale(1);  
+			transform: scale(1);		
+}
+
+/* ----------------------------------------------*/
+/* 06.10 Slide Arrow							 */
+/* ----------------------------------------------*/
+#slide-arrow{
+	position:absolute; 
+	left:0; 
+	right:0; 
+	bottom:50px; 
+	margin:auto;
+	z-index:2000;
+	text-align:center;
+	width:100px;
+}
+
+#slide-arrow a{
+	color:#FFF;
+	font-size:16px;
+}
+
+@-webkit-keyframes bounce {
+ 0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);} 
+ 40% {-webkit-transform: translateY(-15px);}
+ 60% {-webkit-transform: translateY(-7px);}
+}
+ 
+@-moz-keyframes bounce {
+ 0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
+ 40% {-moz-transform: translateY(-15px);}
+ 60% {-moz-transform: translateY(-7px);}
+}
+ 
+@-o-keyframes bounce {
+ 0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
+ 40% {-o-transform: translateY(-15px);}
+ 60% {-o-transform: translateY(-7px);}
+}
+@keyframes bounce {
+ 0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+ 40% {transform: translateY(-15px);}
+ 60% {transform: translateY(-7px);}
+}
+
+.bounceloop{
+	animation: bounce 2s infinite;
+ 	-webkit-animation: bounce 2s infinite;
+ 	-moz-animation: bounce 2s infinite;
+ 	-o-animation: bounce 2s infinite;
+}
+
+/*===============================================*/
+/* 07. PAGE										 */
+/*===============================================*/
+
+/* ----------------------------------------------*/
+/* 07.1 PAGE ELEMENT	 	 					 */
+/* ----------------------------------------------*/
+
+/* 07.1.1 Title-Excerpt White Box				 */
+/* ----------------------------------------------*/
+.title-excerpt{
+	position:relative;
+	background-color:#FFF; 
+	padding:25px;
+}
+
+/* 07.1.2  Align Middle Wrapper					 */
+/* ----------------------------------------------*/
+.alignment{
+	position:absolute;
+	display:table;
+	height:100%;
+	width:100%;
+}
+
+.v-align{
+	display:table-cell;	
+}
+
+.center-middle{
+	vertical-align:middle;
+	text-align:center;
+}
+
+.center-top{
+	vertical-align:top;
+	text-align:center;
+}
+
+.center-bottom{
+	vertical-align:bottom;
+	text-align:center;
+}
+
+/* 07.1.3 Image & Video Divider					 */
+/* ----------------------------------------------*/
+.divider-wrapper{
+	padding:130px 0;
+}
+
+.image-divider {
+	position:relative;
+	background-size:cover;
+	-webkit-background-size:cover;
+	background-attachment: scroll;
+	background-position:center center;
+	background-repeat:no-repeat;
+	color:#FFF;
+	overflow:hidden;
+	-webkit-backface-visibility: hidden;
+}
+
+.image-divider.mobile{
+	background-attachment:scroll;
+}
+
+.image-divider video{
+	position:absolute; 
+	margin:auto; 
+	top:0; 
+	left:0;
+}
+
+.video-divider {
+	position:relative;
+	color:#FFF;
+	z-index:3;
+}
+
+.image-divider h1, .image-divider h2,
+.image-divider h3, .image-divider h4,
+.image-divider h5, .image-divider h6{
+	color:#FFF;
+}
+
+.image-divider .divider-overlay{
+	position:absolute; 
+	top:0; 
+	display:block; 
+	width:100%; 
+	height:100%; 
+	background-color:#000; 
+	opacity:0.3
+}
+
+.image-divider.auto-height{
+	height:100%;
+	width:100%;
+	padding:150px 0;
+}
+
+.image-divider.fixed-height{
+	height:550px;
+	width:100%;
+	padding:0;
+}
+
+/* 07.1.4 Space and Line Divider				 */
+/* ----------------------------------------------*/
+.space-divider{
+	display:block;
+	height:150px
+}
+
+hr.line-divider{
+	height:2px;
+	border:none;
+	color:#e1dddd;
+	background-color:#e1dddd; 
+	margin:50px 0
+}
+
+/*-----------------------------------------------*/
+/* 07.1.5 Popup Template						 */
+/*-----------------------------------------------*/
+#popup-template{
+	width:900px;
+	margin:30px auto;
+	background-color:#FFF;
+}
+
+#popup-template #main-image{
+	height:485px;
+	width:100%;
+	position:relative;
+}
+
+#popup-template-title-wrapper{
+	position:absolute; 
+	bottom:40px; 
+	color:#FFF; 
+	text-align:center;
+	padding:0 40px;
+	margin:0 auto;
+	width:100%;
+}
+
+#popup-template #the-content{
+	padding:60px 75px;
+}
+
+#popup-template #the-content img{
+	width:100%;
+	margin:10px 0 30px 0;
+}
+
+/*-----------------------------------------------*/
+/* 07.1.6 Autocrop Image						 */
+/*-----------------------------------------------*/
+.autocrop-image{
+ 	display:block;
+	background-position:center center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	overflow:hidden;
+}
+
+
+/*-----------------------------------------------*/
+/* 07.1.7 Popup Video							 */
+/*-----------------------------------------------*/
+.popup-video-wrapper{
+	position:fixed; 
+	z-index:2001; 
+	top:0; 
+	bottom:0; 
+	right:0; 
+	left:0; 
+	background-color:rgba(0, 0, 0, 0.7);
+	display:none;
+}
+
+.popup-video{
+	position:absolute; 
+	top:0; 
+	bottom:0; 
+	right:0; 
+	left:0;
+	width:50%;
+	margin:auto;
+	background-color:#000;
+}
+
+
+/*-----------------------------------------------*/
+/* 07.1.8 Map									 */
+/*-----------------------------------------------*/
+.popup-map-wrapper{
+	position:fixed; 
+	z-index:2001; 
+	display:block; 
+	top:0; 
+	bottom:0; 
+	right:0; 
+	left:0; 
+	background-color:rgba(0, 0, 0, 0.7);
+	display:none;
+}
+
+.popup-map{
+	position:absolute; 
+	top:0; 
+	bottom:0; 
+	right:0; 
+	left:0;
+	width:70%;
+	height:80%;
+	margin:auto;
+}
+
+#map-canvas-1{
+	height:600px; 
+	width:100%; 
+}
+
+#map-canvas-2{
+	height:450px; 
+	width:100%; 
+}
+
+#map-canvas-3{
+	height:600px; 
+	width:100%; 
+}
+
+#map-canvas-4{
+	height:650px; 
+	width:100%; 
+}
+
+#popup-map-canvas{
+	width:100%; 
+	height:100%;
+}
+
+.main-icon-wrapper{
+	height:175px; 
+	width:175px; 
+	position:relative;
+}
+
+.big-circle{
+	position:relative;
+	height:175px; 
+	width:175px; 
+	border-radius:50%; 
+	background-color: rgba(249, 141, 138, 0.8); 	
+}
+
+.main-icon-text{
+	position:absolute;
+	font-size:16px;
+	line-height:24px;
+	font-family: 'Montserrat', sans-serif;
+	color:#FFF;
+	text-align:center;
+	top:60px;
+	left:0;
+	right:0;
+	margin: auto;
+}
+
+.info-window-wrapper{
+	padding:5px;
+}
+
+.info-window-desc{
+	font-size:14px;
+	line-height:20px;
+}
+
+.info-window-link{
+	font-size:14px;
+	line-height:20px;
+	margin-top:8px;
+}
+
+@-webkit-keyframes scale-animation {
+ 0%{-webkit-transform: scale(1, 1);} 
+ 50% {-webkit-transform: scale(0.85, 0.85);}
+}
+ 
+@-moz-keyframes scale-animation {
+ 0% {-moz-transform: scale(1, 1);}
+ 50% {-moz-transform: scale(0.85, 0.85);}
+}
+ 
+@-o-keyframes scale-animation {
+ 0%{-o-transform: scale(1, 1);}
+ 50% {-o-transform: scale(0.85, 0.85);}
+}
+@keyframes scale-animation {
+ 0% {transform: scale(1, 1);}
+ 50% {transform: scale(0.85, 0.85);}
+}
+
+.scale-animation{
+	animation: scale-animation 2s infinite;
+ 	-webkit-animation: scale-animation 2s infinite;
+ 	-moz-animation: scale-animation 2s infinite;
+ 	-o-animation: scale-animation 2s infinite;
+}
+
+/*-----------------------------------------------*/
+/* 07.1.9 Box Countdown							 */
+/*-----------------------------------------------*/
+.box-countdown{
+	width:100%; 
+	margin:0 auto; 
+	margin-bottom:30px;
+	height:140px;
+}
+
+.box-countdown .countdown-row,
+.box-countdown .countdown-section{
+	height:100%;
+}
+
+.box-countdown.is-countdown {
+	background-color:transparent;
+	border:none;	
+	color:#666;
+}
+
+.box-countdown .countdown-section{
+	position:relative;
+}
+
+.box-countdown .countdown-amount {
+	font-family: 'Montserrat', sans-serif;	
+	font-weight:700;
+	font-size:36px;
+	background-color:#FFF;
+	width:90%;
+	height:100%;
+	display:block;
+	padding-top:40px;
+	margin:0 auto;	
+}
+
+.box-countdown .countdown-period {
+	position:absolute;
+	font-family: 'Raleway', sans-serif;
+	text-align:center;
+	font-size:16px;  
+	top:80px;
+	left:0;
+	right:0;
+	margin:auto;
+}
+
+
+/*-----------------------------------------------*/
+/* 07.1.10 Circle Countdown						*/
+/*-----------------------------------------------*/
+
+.circle-countdown{
+	width:100%; 
+	margin:0 auto; 
+	margin-top:5px;
+	height:140px;
+	margin-bottom:20px;
+}
+
+.circle-countdown.is-countdown {
+	background-color:transparent;
+	border:none;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.circle-countdown .countdown-amount {
+	background-color:#f98d8a;
+	color:#FFF;
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	display:block;
+	padding-top:36px;
+	font-size:30px;
+	margin:0 auto;
+}
+
+.circle-countdown .countdown-period {
+	padding:10px;
+	display:block;
+	text-align:center;
+	font-size:14px;
+	text-transform:uppercase;    
+}
+
+
+/*-----------------------------------------------*/
+/* 07.1.11 Section Block						 */
+/*-----------------------------------------------*/
+/* Section Block , Content Block */
+/* Content block used for content without title, will resize to smaller on mobile, example on about him/her */
+.section-block, .content-block{
+	padding:90px 0;
+}
+
+.section-block.more-grey,
+.content-block.more-grey{
+	background-color:#f4f3f3;
+}
+
+.intro-text{
+	margin-top:30px;
+	margin-bottom:40px;
+}
+
+/*-----------------------------------------------*/
+/* 07.1.12 Divider Quote						*/
+/*-----------------------------------------------*/
+.quote-top{
+	font-family: 'Great Vibes', cursive; 
+	font-size:78px;
+}
+
+.quote-middle{
+	font-family: 'Great Vibes', cursive; 
+	font-size:114px; 
+	margin-top:50px; 
+	margin-left:-12px
+}
+
+.quote-bottom{
+	font-family: 'Great Vibes', cursive; 
+	font-size:78px;
+	margin-top:50px;
+}
+
+/*-----------------------------------------------*/
+/* 07.1.13 Loader Animation					 	 */
+/*-----------------------------------------------*/
+.loader {
+  position:absolute; 
+  left:0; 
+  right:0; 
+  top:0; 
+  bottom:0; 
+  margin: auto; 
+  width:100px;
+  height:100px;
+}
+
+.wrap {
+	position:absolute;
+	width:100px;
+	height:100px;
+	float:left;
+	
+	-webkit-animation-name: rotateThis;
+	-webkit-animation-duration:1s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:linear;
+	
+	-moz-transform:scale(0.3);
+	-o-transform:scale(0.3);
+}
+
+.wrap div
+{
+	width:10px;
+	height:30px;
+	background:#CCC;
+	position:absolute;
+	top:35px;
+	left:45px;
+	
+	border-radius: 50px;
+	-moz-border-radius-bottomleft:50px;
+	-moz-border-radius-bottomright:50px;
+	-moz-border-radius-topleft:50px;
+	-moz-border-radius-topright:50px;	
+}
+
+@-webkit-keyframes rotateThis {
+	from { -webkit-transform:scale(0.3) rotate(0deg); }
+  	to 	 { -webkit-transform:scale(0.3) rotate(360deg); }
+}
+
+
+.bar1 {
+	-o-transform:rotate(0deg) translate(0, -40px);opacity:0.1;
+	-moz-transform:rotate(0deg) translate(0, -40px);opacity:0.1;
+	-webkit-transform:rotate(0deg) translate(0, -40px);opacity:0.1;
+}
+.bar2 {
+	-o-transform:rotate(36deg) translate(0, -40px);opacity:0.2;
+	-moz-transform:rotate(36deg) translate(0, -40px);opacity:0.2;
+	-webkit-transform:rotate(36deg) translate(0, -40px);opacity:0.2;
+}
+.bar3 {
+	-o-transform:rotate(72deg) translate(0, -40px);opacity:0.3;
+	-moz-transform:rotate(72deg) translate(0, -40px);opacity:0.3;
+	-webkit-transform:rotate(72deg) translate(0, -40px);opacity:0.3;
+}
+.bar4 {
+	-o-transform:rotate(108deg) translate(0, -40px);opacity:0.4;
+	-moz-transform:rotate(108deg) translate(0, -40px);opacity:0.4;
+	-webkit-transform:rotate(108deg) translate(0, -40px);opacity:0.4;
+}
+.bar5 {
+	-o-transform:rotate(144deg) translate(0, -40px);opacity:0.5;
+	-moz-transform:rotate(144deg) translate(0, -40px);opacity:0.5;
+	-webkit-transform:rotate(144deg) translate(0, -40px);opacity:0.5;
+}
+.bar6 {
+	-o-transform:rotate(180deg) translate(0, -40px);opacity:0.6;
+	-moz-transform:rotate(180deg) translate(0, -40px);opacity:0.6;
+	-webkit-transform:rotate(180deg) translate(0, -40px);opacity:0.6;
+}
+.bar7 {
+	-o-transform:rotate(216deg) translate(0, -40px);opacity:0.7;
+	-moz-transform:rotate(216deg) translate(0, -40px);opacity:0.7;
+	-webkit-transform:rotate(216deg) translate(0, -40px);opacity:0.7;
+}
+.bar8 {
+	-o-transform:rotate(252deg) translate(0, -40px);opacity:0.8;
+	-moz-transform:rotate(252deg) translate(0, -40px);opacity:0.8;
+	-webkit-transform:rotate(252deg) translate(0, -40px);opacity:0.8;
+}
+.bar9 {
+	-o-transform:rotate(288deg) translate(0, -40px);opacity:0.9;
+	-moz-transform:rotate(288deg) translate(0, -40px);opacity:0.9;
+	-webkit-transform:rotate(288deg) translate(0, -40px);opacity:0.9;
+}
+.bar10 {
+	-o-transform:rotate(324deg) translate(0, -40px);opacity:1;
+	-moz-transform:rotate(324deg) translate(0, -40px);opacity:1;
+	-webkit-transform:rotate(324deg) translate(0, -40px);opacity:1;
+}
+
+
+/*===============================================*/
+/* 08. ICON										 */
+/*===============================================*/
+.de-icon{
+	/*width: 60px;
+	height: 60px;
+	line-height: 60px;
+	font-size:35px;*/
+	text-align: center;
+	vertical-align: middle;	
+	margin:8px 0px;
+	
+	-webkit-transition: 0.3s all ease;
+	-moz-transition: 0.3s all ease;
+	-o-transition: 0.3s all ease;
+	-ms-transition: 0.3s all ease;
+	transition: 0.3s all ease;
+	/*The transition will be disabled on script.js for tablet/mobile*/
+}
+
+.de-icon.aligncenter{
+	margin:0 auto;
+}
+
+.de-icon.inline{
+	display:inline-block;
+	vertical-align:middle;
+	margin-right:4px !important;
+}
+
+/*.de-icon.float{
+	float:left; 
+	margin-right:15px
+}*/
+
+.de-icon i{
+	-webkit-transition: 0.3s all ease;
+	-moz-transition: 0.3s all ease;
+	-o-transition: 0.3s all ease;
+	-ms-transition: 0.3s all ease;
+	transition: 0.3s all ease;
+	/*The transition will be disabled on script.js for tablet/mobile*/
+}
+
+/*------------------------------------------------*/
+/* 08.1	 Size 							   	  	  */
+/*------------------------------------------------*/
+.de-icon.large-size{
+	font-size:30px;
+	margin:15px 0;	
+}
+
+.de-icon.large-size.circle,
+.de-icon.large-size.square,
+.de-icon.large-size.rounded{
+	width: 75px;
+	height: 75px;
+	line-height: 75px;	
+}
+
+.de-icon.medium-size{
+	/*font-size:24px;*/
+	font-size:22px;
+	margin:10px 0;	
+}
+
+.de-icon.medium-size.circle,
+.de-icon.medium-size.square,
+.de-icon.medium-size.rounded{
+	width: 55px;
+	height: 55px;
+	line-height: 55px;
+}
+
+.de-icon.small-size{
+	/*font-size:18px;	*/
+	font-size:16px;
+	margin:5px 0;	
+}
+
+.de-icon.small-size.circle,
+.de-icon.small-size.square,
+.de-icon.small-size.rounded{
+	width: 40px;
+	height: 40px;
+	line-height: 40px;	
+}
+
+/*.de-icon.very-small-size{
+	font-size:11px;	
+}
+
+.de-icon.very-small-size.circle,
+.de-icon.very-small-size.square,
+.de-icon.very-small-size.rounded{
+	width: 25px;
+	height: 25px;
+	line-height: 18px;
+}*/
+
+/*------------------------------------------------*/
+/* 08.2 Shape / Color							  */
+/*------------------------------------------------*/
+
+/* 08.2.1 Default								  */
+/*------------------------------------------------*/
+.de-icon{
+	color:#f98d8a;
+}
+
+.de-icon.square, .de-icon.circle, .de-icon.rounded{
+	background-color:#f98d8a;
+	color:#FFF;
+	/*border:1px solid #f98d8a;*/
+}
+
+.de-icon.outline{
+	background-color:transparent;
+	color:#f98d8a;
+	border:1px solid;
+}
+
+.de-icon.outline.dark-1{
+	background-color:transparent;
+	color:#666;
+	border:1px solid;
+}
+
+a:hover .de-icon{
+	color:#fa9996;
+}
+
+a:hover .de-icon.square, a:hover .de-icon.circle, a:hover .de-icon.rounded, a:hover .de-icon.outline{
+	color:#FFF;
+	background-color:#fa9996;	
+}
+
+
+/* 08.2.2 Light-1						 		 */
+/*------------------------------------------------*/
+.de-icon.light-1{
+	color:#FFF;
+}
+
+.de-icon.light-1.square, .de-icon.light-1.circle, .de-icon.light-1.rounded{
+	background-color:#FFF;
+	color:#f98d8a;
+	border:1px solid #FFF;
+}
+
+.de-icon.light-1.outline{
+	background-color:transparent;
+	color:#FFF;
+	border:1px solid #FFF;
+}
+
+a:hover .de-icon.light-1	{
+	color:#f98d8a;
+}
+
+a:hover .de-icon.light-1.square, a:hover .de-icon.light-1.circle, a:hover .de-icon.light-1.rounded, a:hover .de-icon.light-1.outline{
+	color:#FFF;
+	background-color:#f98d8a;
+	border-color: #f98d8a;
+}
+
+/* 08.2.3 Light-2						  */
+/*------------------------------------------------*/
+.de-icon.light-2{
+	color:#FFF;
+}
+
+.de-icon.light-2.square, .de-icon.light-2.circle, .de-icon.light-2.rounded{
+	background-color:#FFF;
+	color:#666;
+	border:1px solid #FFF;
+}
+
+.de-icon.light-2.outline{
+	background-color:transparent;
+	color:#FFF;
+	border:1px solid #FFF;
+}
+
+a:hover .de-icon.light-2	{
+	color:#666;
+}
+
+a:hover .de-icon.light-2.square, a:hover .de-icon.light-2.circle, a:hover .de-icon.light-2.rounded, a:hover .de-icon.light-2.outline{
+	color:#FFF;
+	background-color:#f98d8a;
+	border-color: #f98d8a;
+}
+
+
+/* 08.2.4 Circle, Rounded, Square				  */
+/*------------------------------------------------*/
+.de-icon.circle{
+	border-radius: 50%;
+}
+
+.de-icon.rounded{
+	border-radius: 20%;
+}
+
+
+/*------------------------------------------------*/
+/* 08.3 Effect Zoom 						 	  */
+/*------------------------------------------------*/
+.de-icon.effect-1{
+	-webkit-transform: scale(1);
+	   -moz-transform: scale(1);
+	     -o-transform: scale(1);
+	    -ms-transform: scale(1);
+	        transform: scale(1);	
+}
+
+a:hover .de-icon.effect-1{
+	-webkit-transform: scale(1.2);
+	   -moz-transform: scale(1.2);
+	     -o-transform: scale(1.2);
+	    -ms-transform: scale(1.2);
+	        transform: scale(1.2);	
+}
+
+/*------------------------------------------------*/
+/* 08.4 Effect Rotate						  	  */
+/*------------------------------------------------*/
+.de-icon.effect-2 i{
+	display:block;
+	-webkit-transform: rotate(0deg);
+	   -moz-transform: rotate(0deg);
+	     -o-transform: rotate(0deg);
+	    -ms-transform: rotate(0deg);
+	        transform: rotate(0deg);	
+}
+
+a:hover .de-icon.effect-2 i{
+	-webkit-transform: rotate(360deg);
+	   -moz-transform: rotate(360deg);
+	     -o-transform: rotate(360deg);
+	    -ms-transform: rotate(360deg);
+	        transform: rotate(360deg);	
+}
+
+/*------------------------------------------------*/
+/* 08.5 Effect Square/Rounded To Circle 	  	  */
+/*------------------------------------------------*/
+a:hover .de-icon.effect-3{
+	border-radius: 50%;
+}
+
+
+/*===============================================*/
+/* 09. BUTTON									 */
+/*===============================================*/
+
+/* ----------------------------------------------*/
+/* 09.1 Color			 					 	 */
+/* ----------------------------------------------*/
+
+/* 09.1.1 Default		 					 	 */
+/* ----------------------------------------------*/
+
+a.de-button, span.de-button, input[type=submit]{
+	display:inline-block; 	
+	margin:0 auto; 
+	margin-top:20px;
+	margin-right:10px; 
+	background-color:#f98d8a;
+	color:#FFF;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:400;
+	border:solid 1px #f98d8a;
+	text-decoration:none
+}
+
+a.de-button.outline, span.de-button.outline, input[type=submit].outline{
+	background-color:transparent; 
+	border:solid 1px #f98d8a;
+	color:#f98d8a;
+}
+
+a.de-button:hover, input[type=submit]:hover{	
+	background-color:#fa9996;
+	border-color: #fa9996;
+	color:#FFF;
+	text-decoration:none;
+}
+
+/* 09.1.2 Outline Dark	 					 	 */
+/* ---------------------------------------------- */
+a.de-button.outline.dark-1, span.de-button.outline.dark-1, input[type=submit].outline.dark-1{
+	background-color:transparent; 
+	border:solid 1px #666;
+	color:#666;
+}
+
+a.de-button.outline.dark-1:hover, span.de-button.outline.dark-1:hover, input[type=submit].outline.dark-1:hover{
+	background-color:#fa9996;
+	border-color: #fa9996;
+	color:#FFF;
+	text-decoration:none;
+}
+
+/* 09.1.3 Light-1		 					 	 */
+/* ----------------------------------------------*/
+
+a.de-button.light-1, span.de-button.light-1, input[type=submit].light-1{	
+	background-color:#FFF;
+	color:#f98d8a;
+	border:solid 1px #FFF;
+}
+
+a.de-button.outline.light-1, span.de-button.outline.light-1, input[type=submit].outline.light-1{
+	background-color:transparent; 
+	border:solid 1px #FFF;
+	color:#FFF;
+}
+
+a.de-button.light-1:hover, input[type=submit].light-1:hover{
+	background-color:#f98d8a;
+	border-color: #f98d8a;
+	color:#FFF;
+	text-decoration:none;
+}
+
+/* 09.1.4 Light-2			 					 */
+/* ----------------------------------------------*/
+a.de-button.light-2, span.de-button.light-2, input[type=submit].light-2{	
+	background-color:#FFF;
+	color:#666;
+	border:solid 1px #FFF;
+}
+
+a.de-button.outline.light-2, span.de-button.outline.light-2, input[type=submit].outline.light-2{
+	background-color:transparent; 
+	border:solid 1px #FFF;
+	color:#FFF;
+}
+
+a.de-button.light-2:hover, input[type=submit].light-2:hover{
+	background-color:#f98d8a;
+	border-color: #f98d8a;
+	color:#FFF;
+	text-decoration:none;
+}
+
+/* ----------------------------------------------*/
+/* 09.2 Size			 					 	 */
+/* ----------------------------------------------*/
+a.de-button.small, span.de-button.small, input[type=submit].small{
+	padding:8px 34px; 
+	font-size:12px; 
+}
+
+a.de-button.medium, span.de-button.medium, input[type=submit].medium{
+	padding:12px 40px; 
+	font-size:12px; 
+}
+
+a.de-button.large, span.de-button.large, input[type=submit].large{
+	padding:15px 60px; 
+	font-size:12px; 
+}
+
+/* ----------------------------------------------*/
+/* 09.3 Rounded			 					 	 */
+/* ----------------------------------------------*/
+a.de-button.small.rounded, span.de-button.small.rounded, input[type=submit].small.rounded{
+	border-radius:2px
+} 
+
+a.de-button.medium.rounded, span.de-button.medium.rounded, input[type=submit].medium.rounded{
+	border-radius:3px;
+}
+
+a.de-button.large.rounded, span.de-button.large.rounded, input[type=submit].large.rounded{
+	border-radius:4px;
+}
+
+
+/*===============================================*/
+/* 10. PHOTO ITEM								 */
+/*===============================================*/
+.photo-item {
+	position:relative;
+	overflow:hidden;
+}
+
+.photo-item.frame-border {
+	background-color:#FFF; 
+	border:8px solid #FFF;
+}
+
+/* ----------------------------------------------*/
+/* 10.1 Image 									 */
+/* ----------------------------------------------*/
+.photo-item img {
+	width:100%;
+}
+
+/* ----------------------------------------------*/
+/* 10.2 Layer 								 	 */
+/* ----------------------------------------------*/
+.photo-item .layer {
+	position: absolute; 
+	margin: auto;
+	top: 0; 
+	right: 0; 
+	bottom: 0;
+	left: 0;
+	width:100%;
+	height:100%;
+}
+
+.photo-item .layer.wh100{
+	width:100%;
+	height:100%; 
+}
+
+.photo-item .layer.wh95{
+	width:95%;
+	height:95%; 
+}
+
+
+/* 10.2.1 Layer : Second Image   				 */
+/* ----------------------------------------------*/
+.photo-item .layer.second-image{
+	opacity: 0; 
+}
+
+
+/* 10.2.2 Layer : Black Overlay  				 */
+/* ----------------------------------------------*/
+.photo-item .layer.opacity-black-overlay{
+	background-color: rgba(0, 0, 0, 0.4);
+	opacity: 0.3; 
+}
+
+.photo-item .layer.hidden-black-overlay{
+	background-color: rgba(0, 0, 0, 0.4);
+	opacity: 0; 
+}
+
+/* 10.2.3 Layer : Photo Caption  				 */
+/* ----------------------------------------------*/
+.photo-item .layer.photo-caption{
+	opacity: 1; 
+}
+
+.photo-item .layer.hidden-photo-caption{
+	opacity: 0; 
+}
+
+.photo-item .layer.border-photo-caption{
+	opacity: 1;
+	border:1px solid #FFF; 
+}
+
+.photo-item .layer.hidden-border-photo-caption{
+	opacity: 0;
+	border:1px solid #FFF; 
+}
+
+/* 10.2.4 Layer : Icon / Button Link		 	 */
+/* ----------------------------------------------*/
+.photo-item .layer.link{
+	opacity: 1;
+}
+
+.photo-item .layer.hidden-link{
+	opacity: 0;
+}
+
+.photo-item:hover .layer.hover-animation.fade-in{
+	opacity: 1; 
+}
+
+.photo-item:hover .layer.hover-animation.half-fade-in{
+	opacity: 0.3; 
+}
+
+.photo-item:hover .layer.hover-animation.fade-out{
+	opacity: 0; 
+}
+
+/* ----------------------------------------------*/
+/* 10.3 on Hover Animation					 	*/
+/* ----------------------------------------------*/
+.photo-item img.hover-animation, .photo-item:hover img.hover-animation{
+	-webkit-transition: all 0.5s; 
+		-ms-transition: all 0.5s;
+		 -o-transition: all 0.5s;
+			transition: all 0.5s;
+	/*The transition will be disabled on script.js for tablet/mobile*/		
+}
+
+.photo-item .layer.hover-animation, .photo-item:hover .layer.hover-animation {
+	-webkit-transition: all 0.5s; 
+		-ms-transition: all 0.5s;
+		 -o-transition: all 0.5s;
+			transition: all 0.5s;
+	/*The transition will be disabled on script.js for tablet/mobile*/	
+}
+
+/* 10.3.1 on Hover Animation Duration		 	 */
+/* ----------------------------------------------*/
+.photo-item:hover .layer.hover-animation.duration1,
+.photo-item:hover img.hover-animation.duration1{
+	transition-duration:0.5s;
+}
+
+.photo-item:hover .layer.hover-animation.duration2,
+.photo-item:hover img.hover-animation.duration12{
+	transition-duration:1s;
+}
+
+.photo-item:hover .layer.hover-animation.duration3,
+.photo-item:hover img.hover-animation.duration3{
+	transition-duration:1.5s;
+}
+
+.photo-item:hover .layer.hover-animation.duration4,
+.photo-item:hover img.hover-animation.duration4{
+	transition-duration:2s;
+}
+
+.photo-item:hover .layer.hover-animation.duration5,
+.photo-item:hover img.hover-animation.duration5{
+	transition-duration:2.5s;
+}
+
+/* 10.3.2 on Hover Animation Delay		 	 	 */
+/* ----------------------------------------------*/
+.photo-item:hover .layer.hover-animation.delay1,
+.photo-item:hover img.hover-animation.delay1{
+	transition-delay:0.5s;
+}
+
+.photo-item:hover .layer.hover-animation.delay2,
+.photo-item:hover img.hover-animation.delay2{
+	transition-delay:1s;
+}
+
+.photo-item:hover .layer.hover-animation.delay3,
+.photo-item:hover img.hover-animation.delay3{
+	transition-delay:1.5s;
+}
+
+.photo-item:hover .layer.hover-animation.delay4,
+.photo-item:hover img.hover-animation.delay4{
+	transition-delay:2s;
+}
+
+.photo-item:hover .layer.hover-animation.delay5,
+.photo-item:hover img.hover-animation.delay5{
+	transition-delay:2.5s;
+}
+
+
+/* 10.3.3 on Hover Zoom In					 	 */
+/* ----------------------------------------------*/
+.photo-item:hover img.hover-animation.image-zoom-in {
+	-webkit-transform: scale(1.1); 
+		-ms-transform: scale(1.1);
+		 -o-transform: scale(1.1);  
+			transform: scale(1.1);		
+}
+
+/* 10.3.4 on Hover Zoom In and Rotate	 	 	*/
+/* ----------------------------------------------*/
+.photo-item:hover img.hover-animation.image-zoom-rotate {
+	-webkit-transform: rotate(7deg) scale(1.1);
+		-ms-transform: rotate(7deg) scale(1.1);
+		 -o-transform: rotate(7deg) scale(1.1);  
+			transform: rotate(7deg) scale(1.1);			
+}
+
+/* 10.3.5 on Hover Fade Out				 		 */
+/* ----------------------------------------------*/
+.photo-item:hover img.hover-animation.image-fade-out {
+	opacity:0;
+}
+
+
+/*===============================================*/
+/* 11. MASONRY GALLERY							 */
+/*===============================================*/
+.masonry-col.w100{
+	width:100%;
+}
+
+/* ----------------------------------------------*/
+/* 11.1 Three Column No Gutter		 			 */
+/* ----------------------------------------------*/
+.three-col .grid-sizer{
+	width:33.33%;
+}
+
+.three-col .gutter-sizer{
+	width:0;
+}
+
+.three-col .masonry-col.w33{
+	width:33.33%;
+}
+
+.three-col .masonry-col.w66{
+	width:66.67%;
+}
+
+
+/* ----------------------------------------------*/
+/* 11.2 Three Column With Gutter	 			 */
+/* ----------------------------------------------*/
+.three-col.with-gutter .grid-sizer{
+	width:31%;
+}
+
+.three-col.with-gutter .gutter-sizer{
+	width:3.5%;
+}
+
+.three-col.with-gutter .masonry-col{
+	margin-bottom:30px;
+}
+
+
+.three-col.with-gutter .masonry-col.w33{
+	width:31%;
+}
+
+.three-col.with-gutter .masonry-col.w66{
+	width:62%;
+}
+
+/* ----------------------------------------------*/
+/* 11.3 Four Column No Gutter		 			 */
+/* ----------------------------------------------*/
+.four-col .grid-sizer{
+	width:25%;
+}
+
+.four-col .gutter-sizer{
+	width:0;
+}
+
+.four-col .masonry-col.w25{
+	width:25%;
+}
+
+.four-col .masonry-col.w50{
+	width:50%;
+}
+
+.four-col .masonry-col.w75{
+	width:75%;
+}
+
+/* ----------------------------------------------*/
+/* 11.4 Four Column With Gutter		 			 */
+/* ----------------------------------------------*/
+.four-col.with-gutter .grid-sizer{
+	width:23%;
+}
+
+.four-col.with-gutter .gutter-sizer{
+	width:2.666%;
+}
+
+.four-col.with-gutter .masonry-col{
+	margin-bottom:25px;
+}
+
+.four-col.with-gutter .masonry-col.w25{
+	width:23%;
+}
+
+.four-col.with-gutter .masonry-col.w50{
+	width:46%;
+}
+
+.four-col.with-gutter .masonry-col.w75{
+	width:69%;
+}
+
+/* ----------------------------------------------*/
+/* 11.5 Five Column No Gutter		 			 */
+/* ----------------------------------------------*/
+.five-col .grid-sizer{
+	width:20%;
+}
+
+.five-col .gutter-sizer{
+	width:0;
+}
+
+.five-col .masonry-col.w20{
+	width:20%;
+}
+
+.five-col .masonry-col.w40{
+	width:40%;
+}
+
+.five-col .masonry-col.w60{
+	width:60%;
+}
+
+.five-col .masonry-col.w80{
+	width:80%;
+}
+
+/* ----------------------------------------------*/
+/* 11.6 Five Column With Gutter		 			 */
+/* ----------------------------------------------*/
+.five-col.with-gutter .grid-sizer{
+	width:18%;
+}
+
+.five-col.with-gutter .gutter-sizer{
+	width:2.5%;
+}
+
+.five-col.with-gutter .masonry-col{
+	margin-bottom:25px;
+}
+
+.five-col.with-gutter .masonry-col.w20{
+	width:18%;
+}
+
+.five-col.with-gutter .masonry-col.w40{
+	width:36%;
+}
+
+.five-col.with-gutter .masonry-col.w60{
+	width:54%;
+}
+
+.five-col.with-gutter .masonry-col.w80{
+	width:72%;
+}
+
+
+/*===============================================*/
+/* 12. FORM										 */
+/*===============================================*/
+
+/*-----------------------------------------------*/
+/* 12.1 Form Group								 */
+/*-----------------------------------------------*/
+.form-group{
+	margin-bottom: 25px;
+}
+
+.form-group.submit-wrapper{
+	margin-top:25px;
+}
+
+/*-----------------------------------------------*/
+/* 12.2 Form Control							 */
+/*-----------------------------------------------*/
+.form-control {
+   	height:35px;
+	border-radius:0;
+	font-size:13px;
+}
+
+.form-control:focus {
+	border-color: #cccccc;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #cccccc;
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #cccccc;
+}
+
+/*-----------------------------------------------*/
+/* 12.3 Input Group								 */
+/*-----------------------------------------------*/
+.input-group-addon {
+	border-radius:0;
+}
+
+/*-----------------------------------------------*/
+/* 12.4 Label									 */
+/*-----------------------------------------------*/
+form label{
+	font-family: 'Montserrat', sans-serif; 
+	font-size:14px;
+}
+
+.option-label{
+	font-family: 'Raleway', sans-serif;	
+	color:#6a6a6a;
+	font-size:14px;
+}
+
+/*-----------------------------------------------*/
+/* 12.5 Button									 */
+/*-----------------------------------------------*/
+form .btn-primary 
+{
+    padding: 12px 18px;
+    margin: 0 15px 5px 15px; 
+    border-radius: 0;
+	font-family: 'Raleway', sans-serif;	
+	color:#6a6a6a;
+	font-size:14px;
+  	background-color: #FFF;
+  	border-color: #cccccc;
+}
+
+form .btn-primary:hover,
+form .btn-primary:focus,
+form .btn-primary.focus,
+form .btn-primary:active,
+form .btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+	background-color:#f98d8a; 
+	border-color:#f98d8a;
+	color:#FFF;
+ 	border-color: #cccccc;
+}
+
+/*-----------------------------------------------*/
+/* 12.6 Checkbox and Radio (Custom)				 */
+/*-----------------------------------------------*/
+.ajax-checkbox .btn input[type=checkbox],
+.ajax-radio .btn input[type=radio]{
+	display:none;	
+}
+
+.ajax-checkbox .btn.custom-option-icon, .ajax-checkbox .btn.no-icon,
+.ajax-radio .btn.custom-option-icon, .ajax-radio .btn.no-icon{
+	margin-left:0;
+	text-align:left;
+}
+
+.ajax-checkbox .btn.custom-option-icon:before{
+	font-family:"fontello";
+	content:"\eab8";
+	margin-right:7px;
+}
+
+.ajax-checkbox .btn.active-icon.custom-option-icon:before{
+	font-family:"fontello";
+	content:"\eab7";
+	margin-right:7px;
+}
+
+.ajax-radio .btn.custom-option-icon:before{
+	font-family:"fontello";
+	content:"\f10c";
+	margin-right:7px;
+	font-size:16px;
+	font-weight:bold;
+}
+
+.ajax-radio .btn.active-icon.custom-option-icon:before{
+	font-family:"fontello";
+	content:"\f192";
+	margin-right:7px;
+	font-size:16px;
+	font-weight:bold;
+}
+
+/*-----------------------------------------------*/
+/* 12.7 Select Option							 */
+/*-----------------------------------------------*/
+
+select option{
+	padding:4px 0 !important;
+}
+
+option{
+	color:#747474;
+}
+
+/*-----------------------------------------------*/
+/* 12.8 Message									 */
+/*-----------------------------------------------*/
+.message{
+	margin-bottom:20px;
+	font-size:13px
+}
+
+.message .bg-danger, .message .bg-success{
+	padding:8px 14px;
+	color:#ffffff;
+}
+
+.message .bg-danger{
+	background-color:#f98d8a; 
+}
+
+.message .bg-success{
+	background-color:#6a6a6a;
+}
+
+
+/*-----------------------------------------------*/
+/* 12.9 Validation								 */
+/*-----------------------------------------------*/
+form .has-error .btn-primary{
+	border-color: #f397a1;
+}
+
+.has-error .form-control {
+  border-color: #f397a1;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+
+.has-error .form-control:focus {
+  border-color: #f397a1;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #f397a1;
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #f397a1;
+}
+
+
+/*===============================================*/
+/* 13. HOME PAGE								 */
+/*===============================================*/
+
+/* ----------------------------------------------*/
+/* 13.1 Couple Section							 */
+/* ----------------------------------------------*/
+.photo-name{
+	font-family: 'Great Vibes', cursive; 
+	font-size:75px; 
+	color:#FFF; 
+}
+
+.photo-name.his-front-name{
+	margin-left:-45px;
+}
+
+.photo-name.his-last-name{
+	margin-top:30px;
+}
+
+.photo-name.her-front-name{
+	margin-left:-45px;
+}
+
+.photo-name.her-last-name{
+	margin-top:38px;
+}
+
+.couple-excerpt{
+	margin-top:40px;
+	margin-bottom:40px;
+}
+
+/* ----------------------------------------------*/
+/* 13.2 Adventure Begin							 */
+/* ----------------------------------------------*/
+#adventure-begin-wrapper{
+	margin-bottom:80px
+}
+
+/* ----------------------------------------------*/
+/* 13.3 The Wedding Section			 			 */
+/* ----------------------------------------------*/
+.wedding-item-wrapper{
+	margin-bottom:40px;
+}
+
+/* ----------------------------------------------*/
+/* 13.4 Footer Section				 			 */
+/* ----------------------------------------------*/
+footer .image-divider.fixed-height{
+	height:500px;
+}
+
+#thank{
+	font-family: 'Great Vibes', cursive; 
+	font-size:85px;
+}
+
+#you{
+	font-family: 'Great Vibes', cursive; 
+	font-size:85px; 
+	margin-top:40px; 
+	margin-bottom:80px; 
+	margin-left:15px
+}
+
+#footer-couplename-wrapper{
+	-ms-transform: scale(0.7, 0.7); 
+	-webkit-transform: scale(0.7, 0.7);
+	 transform: scale(0.7, 0.7);
+	 margin-bottom:50px;
+}
+
+
+/*===============================================*/
+/* 14. HOME PAGE 2							 	*/
+/*===============================================*/
+.event-card{
+	background-color:#FFF; 
+	padding:60px 40px; 
+	text-align:center;
+	margin-bottom:30px;
+}
+
+.event-card p{
+	margin-bottom:10px;
+}
+
+
+/*===============================================*/
+/* 15. OTHER PAGES								 */
+/*===============================================*/
+
+/* ----------------------------------------------*/
+/* 15.1 About / Story Page		 			 	 */
+/* ----------------------------------------------*/
+#slide-about-wrapper{
+	margin-bottom:60px;
+}
+
+.profile-photo{
+	width:165px;
+	height:165px;
+	margin:0 auto;
+}
+
+/* ----------------------------------------------*/
+/* 15.2 Our Story				 			 	 */
+/* ----------------------------------------------*/
+.handwriting-title{
+	font-family: 'Great Vibes', cursive; 
+	font-size:54px; 
+	margin-bottom:30px
+}
+
+
+/* ----------------------------------------------*/
+/* 15.3 Location				 			 	 */
+/* ----------------------------------------------*/
+#get-direction-wrapper{
+	margin-bottom:30px
+}
+
+.places-card{
+	background-color:#FFF; 
+	width:100%; 
+	padding:45px 30px;
+	text-align:center;
+	margin-bottom:30px;
+}
+
+#arrow-up-mobile{
+	position:absolute; 
+	bottom:10px; 
+	left:10px; 
+	z-index:2000;
+}
+
+#arrow-up-mobile a{
+	display:block;
+	padding:8px 14px;
+	background-color:#FFF;
+	box-shadow: 1px 1px 1px #6a6a6a;
+}
+
+#arrow-up-mobile a:hover{
+	background-color:#f98d8a;
+	color:#FFF;
+}
+
+/* ----------------------------------------------*/
+/* 15.4 Bridesmaid / Groomsmen	 			 	 */
+/* ----------------------------------------------*/
+.wedding-card{
+	width:100%; 
+	background-color:#FFF; 
+	text-align:center; 
+	padding:40px;
+	margin-bottom:30px;
+}
+
+.card-photo{
+	position:relative;
+	width:150px;
+	height:150px;
+	margin:0 auto;
+}
+
+.heart-icon-wrapper{
+	position:absolute;
+	width:27px; 
+	height:27px; 
+	bottom:-15px; 
+	left:0; 
+	right:0; 
+	margin:auto
+}
+
+.heart-icon{
+	font-size:11px; 
+	width:100%; 
+	height:100%; 
+	background-color:#FFF; 
+	color:#f98d8a; 
+	border-radius:50%;
+}
+
+.card-duty{
+	margin:27px 0 10px 0
+}
+
+.card-name{
+	font-family: 'Great Vibes', cursive; 
+	font-size:42px; 
+	color:#c8c8c8; 
+	margin-bottom:20px;
+}
+
+/* ----------------------------------------------*/
+/* 15.5 Gift Registry			 			 	 */
+/* ----------------------------------------------*/
+.gift-card{
+	width:100%; 
+	background-color:#FFF; 
+	text-align:center; 
+	padding:50px 40px;
+	margin-bottom:30px;
+}
+
+.gift-desc{
+	margin-top:10px;
+	margin-bottom:20px;
+}
+
+/* ----------------------------------------------*/
+/* 15.6 Gallery				 			 	 */
+/* ----------------------------------------------*/
+.gallery-item{
+	margin-bottom:30px;
+}
+
+/* ----------------------------------------------*/
+/* 15.7 Accomodation			 			 	 */
+/* ----------------------------------------------*/
+.accomodation-wrapper{
+	margin-bottom:40px;
+}
+
+
+/*===============================================*/
+/* 16. ONEPAGE SECTION							 */
+/*===============================================*/
+
+/* ----------------------------------------------*/
+/* 16.1 Our Story Section						 */
+/* ----------------------------------------------*/
+.story-row.row {
+    display: table;
+	padding:50px 0;
+	position:relative;
+}
+
+.story-row.row [class*="col-"] {
+    float: none;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.story-date-wrapper{
+	z-index:1;
+}
+
+.story-date{
+	position:relative;
+	height:80px; 
+	width:80px; 
+	background-color:#f98d8a; 
+	border-radius:50%;
+	margin:0 auto;
+}
+
+.story-date .the-month{
+	font-family: 'Montserrat', sans-serif;
+	font-size:14px;
+	line-height:20px;
+	font-weight:400;
+	letter-spacing:1px;
+	color:#FFF;
+	padding-top:16px;
+}
+
+.story-date .the-year{
+	font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+	line-height:20px;
+	font-weight:400;
+	color:#FFF; 
+}
+
+.vertical-line{
+	position:absolute; 
+	height:100%; 
+	width:1px; 
+	margin:auto; 
+	top:0; 
+	bottom:0; 
+	left:0; 
+	right:0; 
+	border-left:1px solid #cbcaca;
+}
+
+#end-of-story{
+	margin-top:30px;
+	margin-bottom:50px;
+}
+
+#last-row-date-wrapper{
+	position:relative;
+	display:block; 	
+	padding-top:100px; 
+	padding-bottom:30px; 		
+}
+
+/* ----------------------------------------------*/
+/* 16.2 Save the Date Section					 */
+/* ----------------------------------------------*/
+#save-date{
+	font-family: 'Great Vibes', cursive; 
+	font-size:54px;
+}
+
+/* ----------------------------------------------*/
+/* 16.3 Counting Section						 */
+/* ----------------------------------------------*/
+#counting-wrapper{
+	margin-bottom:50px
+}
+
+#counting{
+	font-family: 'Great Vibes', cursive; 
+	font-size:78px;
+}
+
+/* ----------------------------------------------*/
+/* 16.4 Attending Section						 */
+/* ----------------------------------------------*/
+#attending-wrapper{
+	margin-bottom:20px
+}
+
+#attending{
+	font-family: 'Great Vibes', cursive; 
+	font-size:78px;
+}
+
+
+/* ----------------------------------------------*/
+/* 16.5 Gift Registry Section					 */
+/* ----------------------------------------------*/
+#gift-carousel .item{
+	margin-bottom:20px;
+}
+
+
+/*===============================================*/
+/* 17. OTHER SECTIONS							 */
+/*===============================================*/
+
+/* ----------------------------------------------*/
+/* 17.1 Event Carousel							 */
+/* ----------------------------------------------*/
+#events-carousel .item{
+	padding:20px;
+	margin-bottom:10px;
+}
+
+/*===============================================*/
+/* 18. PLUGIN CUSTOM							 */
+/*===============================================*/
+ 
+/* -------------------------------------------*/
+/* 18.1 Owl Carousel 						  */
+/* -------------------------------------------*/
+.owl-carousel .item{
+	padding:0 15px
+}
+
+.owl-theme .owl-controls .owl-page span{
+	display: block;
+	width: 5px;
+	height: 5px;
+	margin: 5px;
+	opacity: 1;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	background: #333333;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+	background: #f98d8a;
+}
+
+/* -------------------------------------------*/
+/* 18.2 MAGNIFIC POPUP 						  */
+/* -------------------------------------------*/
+.mfp-bg{
+	z-index:2000;
+	-webkit-transform: translateZ(0);
+}
+
+.mfp-wrap {
+  	z-index: 2001;
+}
+
+.mfp-content {
+  	z-index: 2003;
+}
+  
+.mfp-preloader {
+  	z-index: 2002; 
+}
+
+button.mfp-close, button.mfp-arrow {
+  	z-index: 2003;
+}
+
+
+/*===============================================*/
+/* 18. MEDIA SCREEN		 						 */
+/*===============================================*/
+
+@media screen and (min-width: 1600px) {
+/* ----------------------------------------------*/
+/* 06.10 Slide Arrow							 */
+/* ----------------------------------------------*/
+#slide-arrow{
+	bottom:70px; 
+}
+}
+
+@media screen and (max-width: 1366px) {
+/* ----------------------------------------------*/
+/* 02.1 Width & Color 							 */
+/* ----------------------------------------------*/
+
+/* 02.1.1 Fixed-width 							 */
+/* ----------------------------------------------*/
+#nav-bar.fixed-width #nav-wrapper{
+	width:970px;
+}
+}
+
+
+@media screen and (max-width: 1200px) {
+/* ----------------------------------------------*/
+/* 02.1 Width & Color (Nav Bar)			 		 */
+/* ----------------------------------------------*/
+
+/* 02.1.1 Fixed-width 							 */
+/* ----------------------------------------------*/
+#nav-bar.fixed-width #nav-wrapper{
+	width:100%;
+}
+
+/* 06.4.2 Inner Wrapper 						 */
+/* ----------------------------------------------*/
+.slide-title-inner-wrapper{
+	width:100%; 
+}
+
+}
+
+@media screen and (max-width: 991px) {	
+
+/*===============================================*/
+/* 01. GENERAL			 						 */
+/*===============================================*/
+.hide-on-mobile{
+	display:none;
+}
+
+.hide-on-desktop{
+	display:block;
+}
+
+/*===============================================*/
+/* 02. NAV BAR 	 							 	 */
+/*===============================================*/
+#nav-bar-sticky-wrapper{
+	height:90px !important;
+}
+
+/* ----------------------------------------------*/
+/* 02.1 Width & Color (Nav Bar)			 		 */
+/* ----------------------------------------------*/
+/* 02.1.1 Fixed-width */
+/* 02.1.2 Fluid-width */
+#nav-bar.fluid-width #nav-wrapper,
+#nav-bar.fixed-width #nav-wrapper{
+	padding:0px 30px
+}
+
+/* ----------------------------------------------*/
+/* 02.2 Logo & Nav Position	 					 */
+/* ----------------------------------------------*/
+.logo-wrapper{
+	margin-top:15px !important;
+}
+
+#nav-menu { display: none }
+#nav-menu.sidebar {display:block}	
+#nav-menu.open { display: block; }
+
+#nav-menu,
+.bottom-bar.transparent #nav-menu{	
+	list-style-type:none; 
+	margin:0; 
+	padding:0 !important; 
+	position:absolute;
+	left:0;
+	top:100%;
+	clear:both !important;
+	text-align:left !important;
+	width:100% !important;
+	background-color:#FFF;
+	height:330px;
+	overflow:auto;
+}
+
+.transparent #nav-menu{
+	width:80% !important;
+	position:absolute; 
+	margin:auto; 
+	top:100%; 
+	left:0; 
+	right:0;
+}
+
+.transparent.stick-it #nav-menu{
+	width:100% !important;
+}
+
+/* 02.2.1 Nav Center */
+/* 02.2.2 Nav Left 	 */
+/* 02.2.3 Nav Right  */
+#nav-bar.nav-center .logo-wrapper,
+#nav-bar.nav-left .logo-wrapper,
+#nav-bar.nav-right .logo-wrapper{
+	position:relative;
+	float:left;	
+}
+
+#nav-bar.nav-center.hide-logo-on-desktop .logo-wrapper{
+	display:block;
+}
+
+
+/*===============================================*/
+/* 03. NAV MENU	 	 							 */
+/*===============================================*/
+
+/* ----------------------------------------------*/
+/* 03.1 Parent Menu 						     */
+/* ----------------------------------------------*/
+#nav-menu, #nav-menu ul{
+	-webkit-overflow-scrolling : touch;
+}
+
+#nav-menu ul{
+	width:100%;
+	left:0;
+	padding:0 !important;
+}
+
+#nav-menu li{
+	position:relative;
+}
+
+#nav-menu li a{
+	display:block;
+	width:100%;
+	margin:0;
+	color:#666;
+	/*border-bottom:solid thin #f4f2f2;*/
+	border:none !important;
+	border-bottom:solid thin #dcdcdc !important;
+	border-radius:0 !important;
+	padding:18px 20px;
+}
+
+.transparent #nav-menu li a{
+	color:#666;
+}
+
+#nav-menu li a:hover{
+	background-color:#f98d8a !important;
+	color:#FFF !important;
+}
+
+#nav-menu li a.active,
+.transparent #nav-menu li a.active{
+	color:#f98d8a;
+	background-color:#FFF;
+}
+
+#nav-menu li:before{
+	content: '';
+}
+
+/* 03.1.2 Additional Class For Nav Center */
+/* ----------------------------------------------*/
+.nav-center .first-child-margin,
+.nav-center .last-child-margin,
+.nav-center .split-margin{
+	margin:0
+}
+
+/* ----------------------------------------------*/
+/* 03.2 Child Menu 								 */
+/* ----------------------------------------------*/
+#nav-menu ul{
+	display:block;
+	width:100%;
+	position:relative;
+	top:0;
+	text-align:left;
+	border-top:none;
+}
+
+#nav-menu li > ul li a:before{ 
+	content: '-';
+	padding-right:10px;
+} 
+
+#nav-menu ul li:first-child a{
+	border-radius:0;
+} 
+
+#nav-menu ul li:last-child a{
+	border-radius:0;
+}   
+  
+
+/* 03.2.2 Child-Parent Arrow */
+/* ----------------------------------------------*/
+#nav-menu li > ul li a:after { 
+	content: '';
+} 
+
+
+/* 03.2.3 More Child */
+/* ----------------------------------------------*/
+#nav-menu ul ul{
+	display:block;
+	width:100%;
+	position:relative;
+	top:0;
+	left:0;
+	border:none;
+	padding:0 !important;
+}
+
+#nav-menu ul ul li a:before{ 
+	content: '- -';
+	padding-right:10px;
+} 
+
+#nav-menu ul ul ul li a:before{ 
+	content: '- - -';
+	padding-right:10px;
+} 
+
+#nav-menu ul ul.on-left{
+	left:0;
+}
+
+
+/* ----------------------------------------------*/
+/* 03.3 Mobile Nav								 */
+/* ----------------------------------------------*/
+#mobile-nav{
+	display:block;
+	position:relative;
+	float:right;
+	font-size:28px;
+	margin-top:30px;
+	z-index:1000;
+}
+
+.transparent #mobile-nav{	
+	color:#FFF;
+}
+
+.transparent.stick-it #mobile-nav{
+	color:#666;	
+}
+
+
+/* 06.2.1 Main Slider Flexslider Control Nav & Paging */
+/* ----------------------------------------------*/
+#main-slider.flexslider:hover .flex-prev { opacity:0.4;  left: 20px; }
+#main-slider.flexslider:hover .flex-next { opacity:0.4; right: 20px; }
+#main-slider.flexslider .flex-direction-nav .flex-prev { opacity:0.4; left: 20px; }
+#main-slider.flexslider .flex-direction-nav .flex-next { opacity:0.4; right: 20px; }
+
+
+/* 06.4.5 Couple Name Title 					 */
+/* ----------------------------------------------*/
+#slide-couplename-wrapper{
+	margin-top:0;
+}
+
+/* 07.1.3 Image & Video Divider					 */
+/* ----------------------------------------------*/
+.divider-wrapper{
+	padding:70px 0;
+}
+
+.image-divider {
+	background-attachment: scroll;
+}
+
+/*-----------------------------------------------*/
+/* 07.1.5 Popup Template						 */
+/*-----------------------------------------------*/
+#popup-template{
+	width:90%;
+}
+
+/*-----------------------------------------------*/
+/* 07.1.7 Popup Video							 */
+/*-----------------------------------------------*/
+.popup-video{
+	width:80%;
+}
+
+/*-----------------------------------------------*/
+/* 07.1.9 Box Countdown							 */
+/*-----------------------------------------------*/
+.box-countdown .countdown-amount {
+	font-size:30px;
+	width:80%;	
+	padding-top:38px;
+}
+
+.box-countdown .countdown-period {
+	font-size:16px;  
+	top:75px;
+	left:0;
+	right:0;
+	margin:auto;
+}
+
+/*-----------------------------------------------*/
+/* 07.1.11 Section Block						 */
+/*-----------------------------------------------*/
+.content-block{
+	padding:60px 0;
+}
+
+
+/* ----------------------------------------------*/
+/* 16.1 Our Story Section						 */
+/* ----------------------------------------------*/
+.story-row.row {
+    display: block;
+	padding:20px 0
+}
+
+.story-row.row [class*="col-"] {
+    display: block;
+	text-align:center;
+}
+
+.story-date-wrapper{
+	margin-bottom:55px;
+}
+
+.story-date{
+	float:none;
+	position:absolute;	
+	top:-45px;
+	left:0;
+	right:0;
+	margin:auto;
+}
+
+.story-date .month-year{
+	font-family: 'Oswald', sans-serif; 
+	font-size:16px; 
+	color:#FFF;
+}
+
+.arrow-right {
+	display:none;
+	float:none;
+}
+
+.arrow-left {
+	display:none;
+	float:none;
+}
+
+.vertical-line{
+	display:none;
+}
+
+#last-row-date-wrapper .story-date{
+	position:relative;	
+	top:0;
+}
+
+#last-row-date-wrapper{
+	position:relative;
+	padding:0;	
+	margin-top:30px;
+}
+
+#end-of-story{
+	margin-top:20px;
+	margin-bottom:0px;
+}
+
+
+@media screen and (max-width: 991px) and (orientation : landscape) {
+	
+/*===============================================*/
+/* 01. GENERAL			 						 */
+/*===============================================*/
+.scale75-onmobile{
+	-ms-transform: scale(0.75, 0.75); 
+	-webkit-transform: scale(0.75, 0.75);
+	transform: scale(0.75, 0.75);
+}
+
+/* ----------------------------------------------*/
+/* 02.2 Logo & Nav Position						 */
+/* ----------------------------------------------*/
+#nav-menu{	
+	height:230px !important;
+}	
+	
+/* 06.4.5 Couple Name Title 					 */
+/* ----------------------------------------------*/
+#slide-couplename-wrapper{
+	margin-top:0;
+}
+
+#slide-other-text{
+	font-size:12px; 
+	letter-spacing:4px; 
+	margin-top:50px;
+}
+}
+
+
+@media screen and (max-width: 768px) {	
+
+/*-----------------------------------------------*/
+/* 07.1.9 Box Countdown							 */
+/*-----------------------------------------------*/
+.box-countdown{
+	height:120px;
+	margin-bottom:20px;
+}
+
+.box-countdown .countdown-amount {
+	font-size:30px;
+	width:80%;	
+	padding-top:34px;
+}
+
+.box-countdown .countdown-period {
+	font-size:16px;  
+	top:64px;
+	left:0;
+	right:0;
+	margin:auto;
+}
+
+/*===============================================*/
+/* 12. FORM										 */
+/*===============================================*/
+form .btn{
+	width:100%;
+	white-space:normal;
+}
+}
+
+
+@media screen and (max-width: 480px){	
+
+/*===============================================*/
+/* 01. GENERAL			 						 */
+/*===============================================*/
+h1, .h1{
+	font-size:45px;
+	letter-spacing:3px;
+}
+
+h1#accomodation-title{
+	font-size:36px;
+	letter-spacing:2px;
+}
+
+.scale75-onmobile{
+	-ms-transform: scale(0.75, 0.75); 
+	-webkit-transform: scale(0.75, 0.75);
+	transform: scale(0.75, 0.75);
+}
+
+/* 06.4.3 Title Wrapper */
+/* ----------------------------------------------*/
+.slide-title h1, 
+.slide-title .h1{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+/* 06.4.5 Couple Name Title 					 */
+/* ----------------------------------------------*/
+#slide-couplename-wrapper{
+	margin-top:0;
+}
+
+#slide-other-text{
+	font-size:12px; 
+	letter-spacing:4px; 
+	margin-top:50px;
+}
+
+/* 07.1.1 Title-Excerpt White Box				 */
+/* ----------------------------------------------*/
+.title-excerpt{
+	padding:20px;
+}
+
+/*-----------------------------------------------*/
+/* 07.1.5 Popup Template						 */
+/*-----------------------------------------------*/
+#popup-template #the-content{
+	padding-right:30px;
+	padding-left:30px;
+	text-align:center;
+}
+
+/*-----------------------------------------------*/
+/* 07.1.9 Box Countdown							 */
+/*-----------------------------------------------*/
+.box-countdown{
+	height:90px;
+}
+
+.box-countdown .countdown-amount {
+	font-size:26px;
+	width:80%;	
+	padding-top:20px;
+}
+
+.box-countdown .countdown-period {
+	font-size:14px;  
+	top:50px;
+	left:0;
+	right:0;
+	margin:auto;
+}	
+
+/*-----------------------------------------------*/
+/* 07.1.10 Circle Countdown						*/
+/*-----------------------------------------------*/
+.circle-countdown .countdown-amount {
+	width:45px;
+	height:45px;
+	padding-top:9px;
+	font-size:20px;
+}
+
+.circle-countdown .countdown-period {
+	padding:10px;
+	display:block;
+	text-align:center;
+	font-size:12px;
+	text-transform:uppercase;    
+}
+
+/*===============================================*/
+/* 11 MASONRY GALLERY							 */
+/*===============================================*/
+.masonry-col, .grid-sizer{
+	width:100% !important;
+	margin-bottom:5% !important;
+}
+
+/* ----------------------------------------------*/
+/* 15.1 About / Story Page		 			 	 */
+/* ----------------------------------------------*/
+.profile-photo{
+	width:140px;
+	height:140px;
+}
+}
+
+
+@media screen and (max-width: 320px) {
+/* ----------------------------------------------*/
+/* 13.1 Couple Section							 */
+/* ----------------------------------------------*/
+.couple-excerpt{
+	margin-top:20px;
+}
+
+/* ----------------------------------------------*/
+/* 13.4 Footer Section				 			 */
+/* ----------------------------------------------*/
+footer .image-divider.fixed-height{
+	 height:400px;
+}
+}
