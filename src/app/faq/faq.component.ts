@@ -12,4 +12,8 @@ export class FaqComponent implements OnInit {
   ngOnInit() {
   }
 
+  refresh(): void {
+    window.location.reload();
+  }
+
 }

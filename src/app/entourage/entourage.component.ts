@@ -10,6 +10,11 @@ export class EntourageComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
+  }
+
+  refresh(): void {
+    window.location.reload();
   }
 
 }

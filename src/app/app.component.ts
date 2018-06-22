@@ -13,4 +13,8 @@ export class AppComponent {
 
   constructor( private route: ActivatedRoute, private router: Router ) {}
   title = 'Yani and Brian 2019';
+
+  refresh(): void {
+    window.location.reload();
+  }
 }
