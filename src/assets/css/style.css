@@ -188,6 +188,7 @@
 /*===============================================*/
 /* 01. GENERAL			 						 */
 /*===============================================*/
+
 body{
 	font-family: 'Raleway', sans-serif;
 	color:#666;
@@ -198,7 +199,7 @@ body{
 
 h1,h2,h3,h4,h5,h6,
 .h1, .h2, .h3, .h4, .h5, .h6{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Bombshell', sans-serif;
 	font-weight:700;
 }
 
@@ -221,7 +222,7 @@ h1, .h1{
 }
 
 h1.bigger, .h1.bigger{
-	font-size:60px;
+	font-size: 90px;
 }
 
 h2, .h2{
@@ -244,7 +245,7 @@ h4, .h4{
 }
 
 h5, .h5{
-  font-size: 16px;
+  font-size: 30px;
   letter-spacing:2px;
   margin:20px 0;
   line-height:24px;
@@ -316,6 +317,13 @@ img.with-border{
 
 img.rounded{
 	border-radius:50%;
+}
+
+#image-cropper-round {
+	width: 200px;
+	height: 200px;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 .hide-on-mobile{
@@ -424,7 +432,7 @@ img.rounded{
 /* ----------------------------------------------*/
 #nav-bar.transparent{
 	/*position:relative;*/ 
-	background-color:transparent;
+	background-color: rgba(237,187,196, 0.7);
 }
 
 #nav-bar.block-color{
@@ -1049,13 +1057,13 @@ img.rounded{
 
 #slide-his-name{
 	position:relative; 
-	font-family: 'Great Vibes', cursive; 
+	font-family: 'Bombshell', cursive; 
 	font-size:115px;
 }
 
 #slide-and-text{
 	position:relative; 
-	font-family: 'Great Vibes', cursive; 
+	font-family: 'Bombshell', cursive; 
 	font-size:54px; 
 	margin-top:30px;
 }
@@ -1078,7 +1086,7 @@ img.rounded{
 
 #slide-her-name{
 	position:relative; 
-	font-family: 'Great Vibes', cursive; 
+	font-family: 'Bombshell', cursive; 
 	font-size:115px; 
 	margin-top:130px;
 }
@@ -1385,7 +1393,7 @@ img.rounded{
 	width:100%; 
 	height:100%; 
 	background-color:#000; 
-	opacity:0.3
+	opacity:0.5;
 }
 
 .image-divider.auto-height{
@@ -1612,6 +1620,7 @@ hr.line-divider{
 .box-countdown{
 	width:100%; 
 	margin:0 auto; 
+	margin-top:50px;
 	margin-bottom:30px;
 	height:140px;
 }
@@ -1717,19 +1726,19 @@ hr.line-divider{
 /* 07.1.12 Divider Quote						*/
 /*-----------------------------------------------*/
 .quote-top{
-	font-family: 'Great Vibes', cursive; 
+	font-family: 'Bombshell', cursive; 
 	font-size:78px;
 }
 
 .quote-middle{
-	font-family: 'Great Vibes', cursive; 
+	font-family: 'Bombshell', cursive; 
 	font-size:114px; 
 	margin-top:50px; 
 	margin-left:-12px
 }
 
 .quote-bottom{
-	font-family: 'Great Vibes', cursive; 
+	font-family: 'Bombshell', cursive; 
 	font-size:78px;
 	margin-top:50px;
 }
@@ -2766,7 +2775,7 @@ form .has-error .btn-primary{
 /* 13.1 Couple Section							 */
 /* ----------------------------------------------*/
 .photo-name{
-	font-family: 'Great Vibes', cursive; 
+	font-family: 'Bombshell', cursive; 
 	font-size:75px; 
 	color:#FFF; 
 }
@@ -2792,6 +2801,16 @@ form .has-error .btn-primary{
 	margin-bottom:40px;
 }
 
+#circle-image {
+	height: 100%;
+	object-fit: cover;
+}
+
+#flex-center-align {
+	display: flex;
+	justify-content: center;
+}
+
 /* ----------------------------------------------*/
 /* 13.2 Adventure Begin							 */
 /* ----------------------------------------------*/
@@ -2814,12 +2833,12 @@ footer .image-divider.fixed-height{
 }
 
 #thank{
-	font-family: 'Great Vibes', cursive; 
+	font-family: 'Bombshell', cursive; 
 	font-size:85px;
 }
 
 #you{
-	font-family: 'Great Vibes', cursive; 
+	font-family: 'Bombshell', cursive; 
 	font-size:85px; 
 	margin-top:40px; 
 	margin-bottom:80px; 
@@ -2870,7 +2889,7 @@ footer .image-divider.fixed-height{
 /* 15.2 Our Story				 			 	 */
 /* ----------------------------------------------*/
 .handwriting-title{
-	font-family: 'Great Vibes', cursive; 
+	font-family: 'Bombshell', cursive; 
 	font-size:54px; 
 	margin-bottom:30px
 }
@@ -2952,7 +2971,7 @@ footer .image-divider.fixed-height{
 }
 
 .card-name{
-	font-family: 'Great Vibes', cursive; 
+	font-family: 'Bombshell', cursive; 
 	font-size:42px; 
 	color:#c8c8c8; 
 	margin-bottom:20px;
@@ -3067,7 +3086,7 @@ footer .image-divider.fixed-height{
 /* 16.2 Save the Date Section					 */
 /* ----------------------------------------------*/
 #save-date{
-	font-family: 'Great Vibes', cursive; 
+	font-family: 'Bombshell', cursive; 
 	font-size:54px;
 }
 
@@ -3079,7 +3098,7 @@ footer .image-divider.fixed-height{
 }
 
 #counting{
-	font-family: 'Great Vibes', cursive; 
+	font-family: 'Bombshell', cursive; 
 	font-size:78px;
 }
 
@@ -3091,7 +3110,7 @@ footer .image-divider.fixed-height{
 }
 
 #attending{
-	font-family: 'Great Vibes', cursive; 
+	font-family: 'Bombshell', cursive; 
 	font-size:78px;
 }
 
@@ -3241,7 +3260,7 @@ button.mfp-close, button.mfp-arrow {
 /* 02.1.2 Fluid-width */
 #nav-bar.fluid-width #nav-wrapper,
 #nav-bar.fixed-width #nav-wrapper{
-	padding:0px 30px
+	padding: 0px 30px;
 }
 
 /* ----------------------------------------------*/
@@ -3741,6 +3760,13 @@ h1#accomodation-title{
 .profile-photo{
 	width:140px;
 	height:140px;
+}
+
+/* ----------------------------------------------*/
+/* Save the Date Section		 			 	 */
+/* ----------------------------------------------*/
+#responsive-line-height {
+	line-height: 1.5;
 }
 }
 
