@@ -343,33 +343,33 @@
 
 		// 04.1 Menu Active Class (Multipage)
 		//================================================================================
-		var pgurl = window.location.href.substr(window.location.href.lastIndexOf("/") + 1);
-		var parent_1, parent_2;
-		if (!$("nav ul#nav-menu").hasClass("nav-smooth-scroll")) {
-			if (pgurl == "" || pgurl.charAt(0) == "#") {
-				$("nav ul#nav-menu > li:first-child > a").addClass("active");
-			}
-			else {
-				$("nav ul#nav-menu li a").each(function () {
-					var menu_href = $(this).attr("href")
+		// var pgurl = window.location.href.substr(window.location.href.lastIndexOf("/") + 1);
+		// var parent_1, parent_2;
+		// if (!$("nav ul#nav-menu").hasClass("nav-smooth-scroll")) {
+		// 	if (pgurl == "" || pgurl.charAt(0) == "#") {
+		// 		$("nav ul#nav-menu > li:first-child > a").addClass("active");
+		// 	}
+		// 	else {
+		// 		$("nav ul#nav-menu li a").each(function () {
+		// 			var menu_href = $(this).attr("routerLink")
 
-					if (window.location.href.indexOf(menu_href) > -1) {
-						$(this).addClass("active");
-						parent_1 = $(this).parents().eq(2).children();
-						parent_2 = $(this).parents().eq(4).children();
+		// 			if (window.location.href.indexOf(menu_href) > -1) {
+		// 				$(this).addClass("active");
+		// 				parent_1 = $(this).parents().eq(2).children();
+		// 				parent_2 = $(this).parents().eq(4).children();
 
-						if (parent_1.is("a")) {
-							parent_1.addClass("active");
-						}
+		// 				if (parent_1.is("a")) {
+		// 					parent_1.addClass("active");
+		// 				}
 
-						if (parent_2.is("a")) {
-							parent_2.addClass("active");
-						}
-						return false;
-					}
-				})
-			}
-		}
+		// 				if (parent_2.is("a")) {
+		// 					parent_2.addClass("active");
+		// 				}
+		// 				return false;
+		// 			}
+		// 		})
+		// 	}
+		// }
 
 
 		// 04.2 Smooth Scroll (Onepage)
