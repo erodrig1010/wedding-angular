@@ -10,9 +10,10 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
 import { ScheduleComponent } from './schedule/schedule.component';
 import { TravelComponent } from './travel/travel.component';
 import { EntourageComponent } from './entourage/entourage.component';
-import { SongRequestComponent } from './song-request/song-request.component';
-import { GalleryComponent } from './gallery/gallery.component';
 import { FaqComponent } from './faq/faq.component';
+import { RegistryComponent } from './registry/registry.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { SongRequestComponent } from './song-request/song-request.component';
 import { TopNavComponent } from './top-nav/top-nav.component';
 
 const routes: Routes = [
@@ -21,9 +22,10 @@ const routes: Routes = [
   { path: 'schedule', component: ScheduleComponent},
   { path: 'travel', component: TravelComponent},
   { path: 'entourage', component: EntourageComponent},
-  { path: 'song-request', component: SongRequestComponent},
-  { path: 'gallery', component: GalleryComponent},
   { path: 'faq', component: FaqComponent},
+  { path: 'registry', component: RegistryComponent},
+  { path: 'gallery', component: GalleryComponent},
+  { path: 'song-request', component: SongRequestComponent},
 ];
 
 
@@ -37,7 +39,8 @@ const routes: Routes = [
     SongRequestComponent,
     GalleryComponent,
     FaqComponent,
-    TopNavComponent
+    TopNavComponent,
+    RegistryComponent
   ],
   imports: [
     BrowserModule,
