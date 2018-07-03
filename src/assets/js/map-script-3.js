@@ -139,7 +139,7 @@
 		//    		labelClass: "labels" // the CSS class for the label
 		//  	});
 
-		var marker6 = new MarkerWithLabel({
+		var marker3 = new MarkerWithLabel({
 			position: new google.maps.LatLng(38.851008, -77.040146),
 			draggable: false,
 			raiseOnDrag: false,
@@ -150,7 +150,7 @@
 			labelClass: "labels" // the CSS class for the label
 		});
 
-		var marker6 = new MarkerWithLabel({
+		var marker4 = new MarkerWithLabel({
 			position: new google.maps.LatLng(38.952674, -77.456399),
 			draggable: false,
 			raiseOnDrag: false,
@@ -261,52 +261,52 @@
 
 		//INFO WINDOWS 5
 		//=======================================================================================
-		var contentString5 = '' +
-			'<div class="info-window-wrapper">' +
-			'<h6>TRAIN STATION</h6>' +
-			'<div class="info-window-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada aliquam nunc.</div>' +
-			'<div class="info-window-link"><a href="#" class="grey-link with-underline">Click Here</a></div>' +
-			'</div>';
+		// var contentString5 = '' +
+		// 	'<div class="info-window-wrapper">' +
+		// 	'<h6>TRAIN STATION</h6>' +
+		// 	'<div class="info-window-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada aliquam nunc.</div>' +
+		// 	'<div class="info-window-link"><a href="#" class="grey-link with-underline">Click Here</a></div>' +
+		// 	'</div>';
 
-		var marker5_infowindow = new google.maps.InfoWindow({
-			content: contentString5,
-			maxWidth: 200,
-			pixelOffset: new google.maps.Size(0, -10)
-		});
+		// var marker5_infowindow = new google.maps.InfoWindow({
+		// 	content: contentString5,
+		// 	maxWidth: 200,
+		// 	pixelOffset: new google.maps.Size(0, -10)
+		// });
 
-		//ON MARKER CLICK EVENTS
-		google.maps.event.addListener(marker5, 'click', function () {
-			marker5_infowindow.open(map, marker5);
-		});
+		// //ON MARKER CLICK EVENTS
+		// google.maps.event.addListener(marker5, 'click', function () {
+		// 	marker5_infowindow.open(map, marker5);
+		// });
 
 		//ON INFO WINDOW CLOSE CLICK EVENTS
 		//=======================================================================================	
-		google.maps.event.addListener(marker5_infowindow, 'closeclick', function () {
-			window.setTimeout(function () {
-				map.panTo(marker1.getPosition());
-			}, 500);
-		});
+		// google.maps.event.addListener(marker5_infowindow, 'closeclick', function () {
+		// 	window.setTimeout(function () {
+		// 		map.panTo(marker1.getPosition());
+		// 	}, 500);
+		// });
 
 
 		//INFO WINDOWS 6
 		//=======================================================================================
-		var contentString6 = '' +
-			'<div class="info-window-wrapper">' +
-			'<h6>AIRPORT</h6>' +
-			'<div class="info-window-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada aliquam nunc.</div>' +
-			'<div class="info-window-link"><a href="#" class="grey-link with-underline">Click Here</a></div>' +
-			'</div>';
+		// var contentString6 = '' +
+		// 	'<div class="info-window-wrapper">' +
+		// 	'<h6>AIRPORT</h6>' +
+		// 	'<div class="info-window-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada aliquam nunc.</div>' +
+		// 	'<div class="info-window-link"><a href="#" class="grey-link with-underline">Click Here</a></div>' +
+		// 	'</div>';
 
-		var marker6_infowindow = new google.maps.InfoWindow({
-			content: contentString6,
-			maxWidth: 200,
-			pixelOffset: new google.maps.Size(0, -10)
-		});
+		// var marker6_infowindow = new google.maps.InfoWindow({
+		// 	content: contentString6,
+		// 	maxWidth: 200,
+		// 	pixelOffset: new google.maps.Size(0, -10)
+		// });
 
-		//ON MARKER CLICK EVENTS
-		google.maps.event.addListener(marker6, 'click', function () {
-			marker6_infowindow.open(map, marker6);
-		});
+		// //ON MARKER CLICK EVENTS
+		// google.maps.event.addListener(marker6, 'click', function () {
+		// 	marker6_infowindow.open(map, marker6);
+		// });
 
 
 

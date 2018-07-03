@@ -2910,6 +2910,14 @@ footer .image-divider.fixed-height{
 	margin-bottom:30px;
 }
 
+.thumbnail-image {
+	width: 100px;
+}
+
+#hotel-section {
+	padding-top: 0px;
+}
+
 #arrow-up-mobile{
 	position:absolute; 
 	bottom:10px; 
