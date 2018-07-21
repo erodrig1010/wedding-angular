@@ -1,51 +1,46 @@
 <!-- NAVIGATION -->
-<header id="nav-header">
-  <nav id="nav-bar" class="top-bar fluid-width transparent nav-center hide-logo-on-desktop sticky-nav animation fadeInDown">
-
-    <div id="nav-wrapper">
+<app-top-nav></app-top-nav>
+<!-- <header id="nav-header">
+  <nav id="nav-bar" class="top-bar fluid-width transparent nav-center hide-logo-on-desktop sticky-nav">
+    <div id="nav-wrapper"> -->
       <!-- NAV LOGO -->
-      <div class="logo-wrapper">
+      <!-- <div class="logo-wrapper">
         <div class="nav-logo">Y
           <span class="theme-color">+</span>B</div>
       </div>
-
       <div id="mobile-nav">
         <i class="fas fa-bars"></i>
       </div>
-
       <ul id="nav-menu">
         <li>
-          <a [routerLink]="['/']" routerLinkActive="active">HOME</a>
+          <a [routerLink]="['/']" routerLinkActive="active" (click)="refresh()">HOME</a>
         </li>
         <li>
-          <a [routerLink]="['/schedule']" routerLinkActive="active">SCHEDULE</a>
+          <a [routerLink]="['/schedule']" routerLinkActive="active" (click)="refresh()">SCHEDULE</a>
         </li>
         <li>
-          <a [routerLink]="['/travel']" routerLinkActive="active">TRAVEL</a>
+          <a [routerLink]="['/travel']" routerLinkActive="active" (click)="refresh()">TRAVEL</a>
         </li>
         <li>
-          <a [routerLink]="['/entourage']" routerLinkActive="active">ENTOURAGE</a>
+          <a [routerLink]="['/entourage']" routerLinkActive="active" (click)="refresh()">ENTOURAGE</a>
         </li>
         <li>
-          <a [routerLink]="['/faq']" routerLinkActive="active">FAQ</a>
+          <a [routerLink]="['/faq']" routerLinkActive="active" (click)="refresh()">FAQ</a>
         </li>
         <li>
-          <a [routerLink]="['/registry']" routerLinkActive="active">REGISTRY</a>
+          <a [routerLink]="['/registry']" routerLinkActive="active" (click)="refresh()">REGISTRY</a>
         </li>
         <li>
-          <a [routerLink]="['/gallery']" routerLinkActive="active">GALLERY</a>
+          <a [routerLink]="['/gallery']" routerLinkActive="active" (click)="refresh()">GALLERY</a>
         </li>
         <li>
-          <a [routerLink]="['/song-request']" routerLinkActive="active">REQUEST A SONG</a>
+          <a [routerLink]="['/song-request']" routerLinkActive="active" (click)="refresh()">REQUEST A SONG</a>
         </li>
         </ul>
-
       <div class="clearboth"></div>
-
     </div>
-
   </nav>
-</header>
+</header> -->
 <!-- END of NAVIGATION -->
 
 <!-- MAIN SLIDER -->
@@ -63,8 +58,8 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <h1 class="bigger animation delay2 fadeInUp">Yani & Brian</h1>
-              <h5 class="animation delay3 fadeInUp" style="margin-top:60px; font-weight:400; letter-spacing:6px; ">We do.</h5>
+              <h1 class="bigger" style="color: #ffffff">Yani & Brian</h1>
+              <h5 style="margin-top:60px; font-weight:400; letter-spacing:6px; color: #ffffff">We do.</h5>
             </div>
           </div>
         </div>
@@ -108,7 +103,7 @@
   <section id="couple-section" class="section-block">
     <div class="container">
       <div class="row">
-        <div class="col-md-offset-1 col-md-10 text-center animation fadeInUp">
+        <div class="col-md-offset-1 col-md-10 text-center">
           <h2 class="h4">Our Story</h2>
           <p class="intro-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada aliquam nunc a pharetra. Pellentesque sit
             amet placerat magna. Nam ut interdum urna, vitae consequat odio. Nullam porttitor sagittis ex quis venenatis.
@@ -118,10 +113,10 @@
       </div>
       <div class="row" id="flex-center-align">
         <!-- <div class="col-xs-6 col-sm-offset-2 col-sm-4 col-md-offset-3 col-md-3">
-          <img src="http://placehold.it/262x262" alt="" class="fullwidth rounded animation fadeInLeft">
+          <img src="http://placehold.it/262x262" alt="" class="fullwidth rounded">
         </div> -->
         <div class="col-xs-6 col-sm-4 col-md-3" id="image-cropper-round">
-          <img src="assets/images/yb-spain-1.jpg" alt="" class="fullwidth rounded animation fadeInRight" id="circle-image">
+          <img src="assets/images/yb-spain-1.jpg" alt="" class="fullwidth rounded" id="circle-image">
         </div>
       </div>
     </div>
@@ -142,14 +137,14 @@
           <div class="container">
             <div class="row" id="responsive-line-height">
               <div class="col-md-offset-1 col-md-10 text-center">
-                <div class="handwriting-title animation fadeInUp">Save the Date</div>
-                <h2 class="animation fadeInUp" style="margin-bottom:0px">May 11, 2019</h2>
-                <!-- <h5 class="animation fadeInUp" style="letter-spacing:6px; margin-top:30px">You're Invited</h5> -->
+                <div class="handwriting-title">Save the Date</div>
+                <h2 style="margin-bottom:0px">May 11, 2019</h2>
+                <!-- <h5 style="letter-spacing:6px; margin-top:30px">You're Invited</h5> -->
               </div>
             </div>
             <div class="row">
               <div class="col-md-offset-2 col-md-8 text-center">
-                <div id="countdown" class="countdown box-countdown animation fadeInUp"></div>
+                <div id="countdown" class="countdown box-countdown"></div>
               </div>
             </div>
           </div>

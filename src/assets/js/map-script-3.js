@@ -90,7 +90,7 @@
 			raiseOnDrag: false,
 			icon: ' ',
 			map: map,
-			labelContent: '<div id="wedding-marker" class="main-icon-wrapper"><div class="big-circle scale-animation"></div><div class="main-icon-text">Wedding</br>Location</div></div>',
+			labelContent: '<div id="wedding-marker" class="main-icon-wrapper"><div class="big-circle scale-animation" style="background-color:#f98d8a;"></div><div class="main-icon-text">Wedding</br>Venue</div></div>',
 			labelAnchor: new google.maps.Point(88, 88),
 			labelClass: "labels" // the CSS class for the label
 		});
@@ -101,43 +101,10 @@
 			raiseOnDrag: false,
 			icon: ' ',
 			map: map,
-			labelContent: '<div id="gift-marker" class="de-icon circle medium-size" style="background-color:#fc9e9e;"><i class="de-icon-gift"></i></div>',
+			labelContent: '<div id="gift-marker" class="de-icon circle medium-size" style="background-color:#f98d8a;"><i class="fas fa-hotel"></i></i></div>',
 			labelAnchor: new google.maps.Point(27, 27),
 			labelClass: "labels" // the CSS class for the label
 		});
-
-		// var marker3 = new MarkerWithLabel({
-		//    		position: new google.maps.LatLng(35.441899, -97.439043),
-		//    		draggable: false,
-		//    		raiseOnDrag: false,
-		//    		icon: ' ',
-		//    		map: map, 
-		//      	labelContent: '<div id="bus-marker" class="de-icon circle medium-size" style="background-color:#e9c24c;"><i class="de-icon-bus"></i></div>',
-		//    		labelAnchor: new google.maps.Point(27, 27),
-		//    		labelClass: "labels" // the CSS class for the label
-		//  	});
-
-		// var marker4 = new MarkerWithLabel({
-		//    		position: new google.maps.LatLng(35.443866, -97.437573),
-		//    		draggable: false,
-		//    		raiseOnDrag: false,
-		//    		icon: ' ',
-		//    		map: map, 
-		//      	labelContent: '<div id="food-marker" class="de-icon circle medium-size" style="background-color:#bfd730;"><i class="de-icon-tree"></i></div>',
-		//    		labelAnchor: new google.maps.Point(27, 27),
-		//    		labelClass: "labels" // the CSS class for the label
-		//  	});
-
-		// var marker5 = new MarkerWithLabel({
-		//    		position: new google.maps.LatLng(35.443835, -97.428649),
-		//    		draggable: false,
-		//    		raiseOnDrag: false,
-		//    		icon: ' ',
-		//    		map: map, 
-		//      	labelContent: '<div id="train-marker" class="de-icon circle medium-size" style="background-color:#8fcbda;"><i class="de-icon-subway"></i></div>',
-		//    		labelAnchor: new google.maps.Point(27, 27),
-		//    		labelClass: "labels" // the CSS class for the label
-		//  	});
 
 		var marker3 = new MarkerWithLabel({
 			position: new google.maps.LatLng(38.851008, -77.040146),
@@ -145,7 +112,7 @@
 			raiseOnDrag: false,
 			icon: ' ',
 			map: map,
-			labelContent: '<div id="airport-marker" class="de-icon circle medium-size" style="background-color:#797ee6;"><i class="de-icon-airport"></i></div>',
+			labelContent: '<div id="airport-marker" class="de-icon circle medium-size" style="background-color:#91CBD9;"><i class="fas fa-plane"></i></div>',
 			labelAnchor: new google.maps.Point(27, 27),
 			labelClass: "labels" // the CSS class for the label
 		});
@@ -156,7 +123,7 @@
 			raiseOnDrag: false,
 			icon: ' ',
 			map: map,
-			labelContent: '<div id="airport-marker" class="de-icon circle medium-size" style="background-color:#797ee6;"><i class="de-icon-airport"></i></div>',
+			labelContent: '<div id="airport-marker" class="de-icon circle medium-size" style="background-color:#91CBD9;"><i class="fas fa-plane"></i></div>',
 			labelAnchor: new google.maps.Point(27, 27),
 			labelClass: "labels" // the CSS class for the label
 		});
@@ -167,11 +134,11 @@
 		//INFO WINDOWS 1
 		//=======================================================================================
 		var contentString1 = '' +
-			'<div class="info-window-wrapper">' +
-			'<h6>CEREMONY</h6>' +
-			'<div class="info-window-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada aliquam nunc.</div>' +
-			'<div class="info-window-link"><a href="#" class="grey-link with-underline">Click Here</a></div>' +
-			'</div>';
+		'<div class="info-window-wrapper">'+
+		'<h6 style="font-family: Raleway">Wedding Venue</h6>'+
+		'<div class="info-window-desc"><strong>Shadow Creek Weddings & Events</strong></div>'+
+		'<div class="info-window-desc">18090 Silcott Springs Rd, Purcellville, VA 20132</div>'+
+		'</div>';
 
 		var marker1_infowindow = new google.maps.InfoWindow({
 			content: contentString1,
@@ -191,11 +158,11 @@
 		//INFO WINDOWS 2
 		//=======================================================================================
 		var contentString2 = '' +
-			'<div class="info-window-wrapper">' +
-			'<h6>GIFT STATION</h6>' +
-			'<div class="info-window-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada aliquam nunc.</div>' +
-			'<div class="info-window-link"><a href="#" class="grey-link with-underline">Click Here</a></div>' +
-			'</div>';
+		'<div class="info-window-wrapper">'+
+		'<h6 style="font-family: Raleway">Hotel</h6>'+
+		'<div class="info-window-desc"><strong>Best Western Dulles Airport Inn</strong></div>'+
+		'<div class="info-window-desc">45440 Holiday Dr, Sterling, VA 20166</div>'+
+		'</div>';
 
 		var marker2_infowindow = new google.maps.InfoWindow({
 			content: contentString2,
@@ -212,11 +179,12 @@
 		//INFO WINDOWS 3
 		//=======================================================================================
 		var contentString3 = '' +
-			'<div class="info-window-wrapper">' +
-			'<h6>BUS STOP</h6>' +
-			'<div class="info-window-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada aliquam nunc.</div>' +
-			'<div class="info-window-link"><a href="#" class="grey-link with-underline">Click Here</a></div>' +
-			'</div>';
+		'<div class="info-window-wrapper">'+
+		'<h6 style="font-family: Raleway">Airport</h6>'+
+		'<div class="info-window-desc"><strong>Ronald Reagan Washington National Airport (DCA)</strong></div>'+
+		'<div class="info-window-desc">Arlington, VA</div>'+
+		'<div class="info-window-link"><a href="https://www.kayak.com/flight-routes/United-States-US0/Washington-Reagan-National-DCA" class="grey-link with-underline">Find Flights!</a></div>'
+		'</div>';
 
 		var marker3_infowindow = new google.maps.InfoWindow({
 			content: contentString3,
@@ -233,11 +201,12 @@
 		//INFO WINDOWS 4
 		//=======================================================================================
 		var contentString4 = '' +
-			'<div class="info-window-wrapper">' +
-			'<h6>GARDEN</h6>' +
-			'<div class="info-window-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada aliquam nunc.</div>' +
-			'<div class="info-window-link"><a href="#" class="grey-link with-underline">Click Here</a></div>' +
-			'</div>';
+		'<div class="info-window-wrapper">'+
+		'<h6 style="font-family: Raleway">Airport</h6>'+
+		'<div class="info-window-desc"><strong>Washington Dulles International Airport (IAD)</strong></div>'+
+		'<div class="info-window-desc">Dulles, VA</div>'+
+		'<div class="info-window-link"><a href="https://www.kayak.com/flight-routes/United-States-US0/Washington-Dulles-Intl-IAD" class="grey-link with-underline">Find Flights!</a></div>'
+		'</div>';
 
 		var marker4_infowindow = new google.maps.InfoWindow({
 			content: contentString4,

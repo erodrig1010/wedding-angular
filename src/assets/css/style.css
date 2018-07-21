@@ -1,3 +1,7 @@
+/* pink = #f98d8a */
+/* dark grey = #4a4a4a */
+
+
 @charset "utf-8";
 
 /*============================== 
@@ -229,6 +233,7 @@ h2, .h2{
 	font-size:42px;
 	letter-spacing:4px;
 	margin: 40px 0;
+	margin-top: 0;
 }
 
 h3, .h3{
@@ -252,10 +257,10 @@ h5, .h5{
 }
 
 h6, .h6{
-  font-size: 14px;
+  font-size: 20px;
   letter-spacing:2px;
   margin:10px 0;
-  line-height:24px;
+  line-height: 1.5em;
 }
 
 h1.inline, h2.inline, h3.inline,
@@ -342,6 +347,11 @@ img.rounded{
 	margin:40px 0;
 }
 
+.justify-center {
+	display: flex;
+	justify-content: center;
+}
+
 /*===============================================*/
 /* 02. NAV BAR  	 							 */
 /*===============================================*/
@@ -352,9 +362,9 @@ img.rounded{
 
 #nav-bar{
 	position:relative;
-	height:90px;
-	width:100%;
-	z-index:1000;
+	height: 60px;
+	width: 100%;
+	z-index: 1000;
 }
 
 #nav-bar.hide-first{
@@ -395,12 +405,12 @@ img.rounded{
 }
 
 #nav-bar.top-bar.stick-it{
-	position:fixed;
-	height:90px; 
-	width:100%;
+	position: fixed;
+	height: 60px; 
+	width: 100%;
 	background-color:#FFF;
-	z-index:1500;
-	visibility:visible;
+	z-index: 1500;
+	visibility: visible;
 	/*-webkit-transform: translateZ(0);*/
 }
 
@@ -417,13 +427,13 @@ img.rounded{
 }*/
 
 #nav-bar.bottom-bar.stick-it{
-	position:fixed;
-	height:90px; 
-	width:100%;
-	background-color:#FFF;
-	z-index:1500;
-	top:0;
-	bottom:auto;
+	position: fixed;
+	height: 60px; 
+	width: 100%;
+	background-color: #FFF;
+	z-index: 1500;
+	top: 0;
+	bottom: auto;
 	/*-webkit-transform: translateZ(0)*/
 	
 }
@@ -449,21 +459,21 @@ img.rounded{
 /* ----------------------------------------------*/
 
 .logo-wrapper{
-	position:relative; 
-	width:60px; 
-	height:60px;
-	margin-top:15px;
+	position: relative; 
+	width: 60px; 
+	height: 60px;
+	margin-top: 15px;
 }
 
 #nav-menu{	
 	list-style-type:none; 
-	margin:0; 
-	padding:25px 0 0 0;
-	font-family: 'Montserrat', sans-serif;
-	font-weight:700;
-	font-size:14px;
-	letter-spacing:1px;
-	z-index:1000;
+	margin: 0; 
+	padding: 10px 0 0 0;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	letter-spacing: 1px;
+	z-index: 1000;
 }
 
 /* 02.2.1 Nav Center 							 */
@@ -735,7 +745,7 @@ img.rounded{
 /* 05.1 Default (Nav) Logo						 */
 /* ----------------------------------------------*/
 .nav-logo{	
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size:22px; 
 	letter-spacing:2px; 
 	font-weight:700;
@@ -832,7 +842,7 @@ img.rounded{
 
 .his-initial{
 	position:absolute; 
-	font-family: 'Montserrat', sans-serif; 
+	font-family: 'Raleway', sans-serif; 
 	font-weight:700; 
 	font-size:18px; 
 	top:20px;
@@ -840,7 +850,7 @@ img.rounded{
 
 .her-initial{
 	position:absolute; 
-	font-family: 'Montserrat', sans-serif; 
+	font-family: 'Raleway', sans-serif; 
 	font-weight:700; 
 	font-size:18px; 
 	top:20px; 
@@ -1092,7 +1102,7 @@ img.rounded{
 }
 
 #slide-other-text{
-	font-family: 'Montserrat', sans-serif; 
+	font-family: 'Raleway', sans-serif; 
 	font-size:14px; 
 	letter-spacing:6px; 
 	margin-top:100px;
@@ -1416,11 +1426,12 @@ img.rounded{
 }
 
 hr.line-divider{
-	height:2px;
-	border:none;
-	color:#e1dddd;
-	background-color:#e1dddd; 
-	margin:50px 0
+	height: .5px;
+	width: 85%;
+	border: none;
+	color:rgba(102, 102, 102, .1);
+	background-color:rgba(102, 102, 102, .1);
+	margin: 0 auto
 }
 
 /*-----------------------------------------------*/
@@ -1564,7 +1575,7 @@ hr.line-divider{
 	position:absolute;
 	font-size:16px;
 	line-height:24px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	color:#FFF;
 	text-align:center;
 	top:60px;
@@ -1641,7 +1652,7 @@ hr.line-divider{
 }
 
 .box-countdown .countdown-amount {
-	font-family: 'Montserrat', sans-serif;	
+	font-family: 'Raleway', sans-serif;	
 	font-weight:700;
 	font-size:36px;
 	background-color:#FFF;
@@ -1679,7 +1690,7 @@ hr.line-divider{
 .circle-countdown.is-countdown {
 	background-color:transparent;
 	border:none;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 .circle-countdown .countdown-amount {
@@ -1709,12 +1720,17 @@ hr.line-divider{
 /* Section Block , Content Block */
 /* Content block used for content without title, will resize to smaller on mobile, example on about him/her */
 .section-block, .content-block{
-	padding:90px 0;
+	padding: 75px 0;
 }
 
 .section-block.more-grey,
 .content-block.more-grey{
 	background-color:#f4f3f3;
+}
+
+.section-block.pink,
+.content-block.pink{
+	background-color:rgba(237,187,196, 0.7);
 }
 
 .intro-text{
@@ -2117,7 +2133,7 @@ a.de-button, span.de-button, input[type=submit]{
 	margin-right:10px; 
 	background-color:#f98d8a;
 	color:#FFF;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight:400;
 	border:solid 1px #f98d8a;
 	text-decoration:none
@@ -2634,7 +2650,7 @@ a.de-button.large.rounded, span.de-button.large.rounded, input[type=submit].larg
 /* 12.4 Label									 */
 /*-----------------------------------------------*/
 form label{
-	font-family: 'Montserrat', sans-serif; 
+	font-family: 'Raleway', sans-serif; 
 	font-size:14px;
 }
 
@@ -3049,7 +3065,7 @@ footer .image-divider.fixed-height{
 }
 
 .story-date .the-month{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size:14px;
 	line-height:20px;
 	font-weight:400;
@@ -3059,7 +3075,7 @@ footer .image-divider.fixed-height{
 }
 
 .story-date .the-year{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size:20px;
 	line-height:20px;
 	font-weight:400;
@@ -3262,7 +3278,7 @@ button.mfp-close, button.mfp-arrow {
 /* 02. NAV BAR 	 							 	 */
 /*===============================================*/
 #nav-bar-sticky-wrapper{
-	height:90px !important;
+	height: 60px !important;
 }
 
 /* ----------------------------------------------*/

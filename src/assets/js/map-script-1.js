@@ -1,3 +1,6 @@
+// NOT IS USE!!!
+
+
 /*============================== 
 	- MAP JS (DEFAULT MARKER)
 	- Template: MARRY - Responsive HTML Wedding Template
@@ -181,9 +184,9 @@
 		//=======================================================================================
 		var contentString1 = ''+
 		'<div class="info-window-wrapper">'+
-			'<h6>CEREMONY</h6>'+
-			'<div class="info-window-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada aliquam nunc.</div>'+
-			'<div class="info-window-link"><a href="#" class="grey-link with-underline">Click Here</a></div>'+
+			'<h6 style="font-family: Raleway">Wedding Venue</h6>'+
+			'<div class="info-window-desc"><strong>Shadow Creek Weddings & Events</strong></div>'+
+			'<div class="info-window-desc">18090 Silcott Springs Rd, Purcellville, VA 20132</div>'+
       	'</div>';
 		
 		var marker1_infowindow = new google.maps.InfoWindow({

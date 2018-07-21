@@ -1,3 +1,5 @@
+// NOT IN USE!!!
+
 /*============================== 
 	- MAP JS (DEFAULT + IMAGE + ICON MARKER)
 	- Template: MARRY - Responsive HTML Wedding Template
