@@ -1,5 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
-@font-face { 
-	font-family: "Bombshell";
-	src: url("assets/fonts/bombshell-pro.ttf");
+#homepage-image-tint {
+  background:
+    linear-gradient(
+      rgba(0,0,0,.5),
+      rgba(0,0,0,.5)
+    ),
+    url(assets/images/prezipline.jpg);
+
+  background-attachment: fixed; 
+  background-position: 50% -10px;
 }

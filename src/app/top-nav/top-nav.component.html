@@ -1,49 +1,122 @@
-<!-- NAVIGATION -->
-<header id="nav-header">
-  <nav id="nav-bar" class="top-bar fluid-width block-color nav-center hide-logo-on-desktop sticky-nav animation fadeInDown">
+<!-- Header -->
+<header class="gla_header">
 
-    <div id="nav-wrapper">
-      <!-- NAV LOGO -->
-      <div class="logo-wrapper">
-        <div class="nav-logo">Y
-          <span class="theme-color">+</span>B</div>
-      </div>
-
-      <div id="mobile-nav">
-        <i class="de-icon-menu"></i>
-      </div>
-
-      <ul id="nav-menu">
-        <li>
-          <a [routerLink]="['/index']" routerLinkActive="active" (click)="refresh()">HOME</a>
-        </li>
-        <li>
-          <a [routerLink]="['/schedule']" routerLinkActive="active" (click)="refresh()">SCHEDULE</a>
-        </li>
-        <li>
-          <a [routerLink]="['/travel']" routerLinkActive="active" (click)="refresh()">TRAVEL</a>
-        </li>
-        <li>
-          <a [routerLink]="['/entourage']" routerLinkActive="active" (click)="refresh()">ENTOURAGE</a>
-        </li>
-        <li>
-          <a [routerLink]="['/faq']" routerLinkActive="active" (click)="refresh()">FAQ</a>
-        </li>
-        <li>
-          <a [routerLink]="['/registry']" routerLinkActive="active" (click)="refresh()">REGISTRY</a>
-        </li>
-        <li>
-          <a [routerLink]="['/gallery']" routerLinkActive="active" (click)="refresh()">GALLERY</a>
-        </li>
-        <li>
-            <a [routerLink]="['/song-request']" routerLinkActive="active" (click)="refresh()">REQUEST A SONG</a>
-        </li>
-      </ul>
-
-      <div class="clearboth"></div>
-
+  <nav class="gla_light_nav gla_image_bck gla_fixed" data-color="#efe5dd" style="background-color: rgb(239, 229, 221); opacity: 0.8;">
+    <div class="gla_over" data-color="#efe5dd" data-opacity="0.8" style="background-color: rgb(239, 229, 221); opacity: 0.8;">
     </div>
+    
+    <div class="container">
 
+      <div class="gla_logo_container clearfix">
+        <div class="gla_logo_txt">
+          <!-- Logo -->
+          <a href="/" class="gla_logo">Yani & Brian</a>
+
+          <!-- Text Logo -->
+          <div class="gla_logo_und">May 11, 2019</div>
+        </div>
+      </div>
+
+      <!-- Menu -->
+      <div class="gla_main_menu gla_main_menu_mobile">
+
+        <div class="gla_main_menu_icon">
+          <i></i>
+          <i></i>
+          <i></i>
+          <i></i>
+          <b>Menu</b>
+          <b class="gla_main_menu_icon_b">Back</b>
+        </div>
+      </div>
+
+      <!-- Menu Content -->
+      <div class="gla_main_menu_content gla_image_bck" data-color="rgba(0,0,0,0.9)" style="background-color: rgba(0, 0, 0, 0.9);">
+        <!-- Over -->
+        <div class="gla_over" data-color="#000" data-opacity="0.7"></div>
+      </div>
+
+      <div class="gla_main_menu_content_menu gla_wht_txt text-right">
+        <div class="container">
+          <ul>
+            <li class="gla">
+              <a [routerLink]="['/index']" routerLinkActive="active">Home</a>
+            </li>
+
+            <li class="gla">
+              <a [routerLink]="['/schedule']" routerLinkActive="active">Schedule</a>
+            </li>
+
+            <li class="gla">
+              <a [routerLink]="['/travel']" routerLinkActive="active">Travel</a>
+            </li>
+
+            <li class="gla">
+              <a [routerLink]="['/entourage']" routerLinkActive="active">Entourage</a>
+            </li>
+
+            <li class="gla">
+              <a [routerLink]="['/faq']" routerLinkActive="active">FAQ</a>
+            </li>
+
+            <li class="gla">
+              <a [routerLink]="['/registry']" routerLinkActive="active">Registry</a>
+            </li>
+
+            <li class="gla">
+              <a [routerLink]="['/gallery']" routerLinkActive="active">Gallery</a>
+            </li>
+
+            <li class="gla">
+              <a [routerLink]="['/song-request']" routerLinkActive="active">Request a Song</a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- container end -->
+      </div>
+      <!-- menu content end -->
+
+      <!-- Top Menu -->
+      <div class="gla_default_menu">
+        <ul>
+          <li class="gla">
+            <a [routerLink]="['/index']" routerLinkActive="active">Home</a>
+          </li>
+
+          <li class="gla">
+            <a [routerLink]="['/schedule']" routerLinkActive="active">Schedule</a>
+          </li>
+
+          <li class="gla">
+            <a [routerLink]="['/travel']" routerLinkActive="active">Travel</a>
+          </li>
+
+          <li class="gla">
+            <a [routerLink]="['/entourage']" routerLinkActive="active">Entourage</a>
+          </li>
+
+          <li class="gla">
+            <a [routerLink]="['/faq']" routerLinkActive="active">FAQ</a>
+          </li>
+
+          <li class="gla">
+            <a [routerLink]="['/registry']" routerLinkActive="active">Registry</a>
+          </li>
+
+          <li class="gla">
+            <a [routerLink]="['/gallery']" routerLinkActive="active">Gallery</a>
+          </li>
+
+          <li class="gla">
+            <a [routerLink]="['/song-request']" routerLinkActive="active">Request a Song</a>
+          </li>
+        </ul>
+      </div>
+      <!-- Top Menu End -->
+    </div>
+    <!-- container end -->
   </nav>
+
 </header>
-<!-- END of NAVIGATION -->
+<!-- Header End -->

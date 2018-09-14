@@ -1,156 +1,118 @@
-<!-- NAVIGATION -->
-<app-top-nav></app-top-nav>
-<!-- <header id="nav-header">
-  <nav id="nav-bar" class="top-bar fluid-width transparent nav-center hide-logo-on-desktop sticky-nav">
-    <div id="nav-wrapper"> -->
-      <!-- NAV LOGO -->
-      <!-- <div class="logo-wrapper">
-        <div class="nav-logo">Y
-          <span class="theme-color">+</span>B</div>
-      </div>
-      <div id="mobile-nav">
-        <i class="fas fa-bars"></i>
-      </div>
-      <ul id="nav-menu">
-        <li>
-          <a [routerLink]="['/']" routerLinkActive="active" (click)="refresh()">HOME</a>
-        </li>
-        <li>
-          <a [routerLink]="['/schedule']" routerLinkActive="active" (click)="refresh()">SCHEDULE</a>
-        </li>
-        <li>
-          <a [routerLink]="['/travel']" routerLinkActive="active" (click)="refresh()">TRAVEL</a>
-        </li>
-        <li>
-          <a [routerLink]="['/entourage']" routerLinkActive="active" (click)="refresh()">ENTOURAGE</a>
-        </li>
-        <li>
-          <a [routerLink]="['/faq']" routerLinkActive="active" (click)="refresh()">FAQ</a>
-        </li>
-        <li>
-          <a [routerLink]="['/registry']" routerLinkActive="active" (click)="refresh()">REGISTRY</a>
-        </li>
-        <li>
-          <a [routerLink]="['/gallery']" routerLinkActive="active" (click)="refresh()">GALLERY</a>
-        </li>
-        <li>
-          <a [routerLink]="['/song-request']" routerLinkActive="active" (click)="refresh()">REQUEST A SONG</a>
-        </li>
-        </ul>
-      <div class="clearboth"></div>
+<!-- Page -->
+<div class="gla_page" id="gla_page">
+
+  <!-- To Top -->
+  <a href="#gla_page" class="gla_top ti ti-angle-up gla_go"></a>
+
+  <!-- Music -->
+  <div class="gla_music_icon">
+    <i class="ti ti-music"></i>
+  </div>
+  <div class="gla_music_icon_cont">
+    <iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/108238095&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+  </div>
+
+
+  <!-- NAVIGATION -->
+  <app-top-nav></app-top-nav>
+  <!-- END of NAVIGATION -->
+
+
+  <!-- Slider -->
+  <div class="gla_slider gla_image_bck gla_fixed" data-stellar-background-ratio="0.2" data-color="#efe5dd" style="background-color: rgb(239, 229, 221); background-attachment: fixed; background-position: 50% 0px;">
+
+    <div class="gla_slider_flower">
+      <div class="gla_slider_flower_c1 gla_slider_flower_item" data-start="top:0px; left:0px" data-200-start="top:-300px; left:-300px"></div>
+      <div class="gla_slider_flower_c2 gla_slider_flower_item" data-start="top:0px; right:0px" data-200-start="top:-300px; right:-300px"></div>
+      <div class="gla_slider_flower_c3 gla_slider_flower_item" data-start="bottom:0px; right:0px" data-200-start="bottom:-300px; right:-300px"></div>
+      <div class="gla_slider_flower_c4 gla_slider_flower_item" data-start="bottom:0px; left:0px" data-200-start="bottom:-300px; left:-300px"></div>
+      <div class="gla_slider_flower_c5 gla_slider_flower_item" data-start="top:0px; left:50%" data-200-start="top:-300px; left:50%"></div>
+      <div class="gla_slider_flower_c6 gla_slider_flower_item" data-start="bottom:0px; left:50%" data-200-start="bottom:-300px; left:50%"></div>
     </div>
-  </nav>
-</header> -->
-<!-- END of NAVIGATION -->
 
-<!-- MAIN SLIDER -->
-<section id="main-slider" class="flexslider fullscreen">
+    <!-- Over -->
+    <div class="gla_over" data-color="#9abab6" data-opacity="0"></div>
 
-  <!-- MAIN SLIDER TITLE OUTTER WRAPPER -->
-  <div class="slide-title-outter-wrapper">
+    <div class="container">
 
-    <!-- MAIN SLIDER TITLE INNER WRAPPER -->
-    <div class="slide-title-inner-wrapper">
+      <!-- Slider Texts -->
+      <div class="gla_slide_txt gla_slide_center_middle text-center">
 
-      <!-- TITLE -->
-      <div class="slide-title align-middle">
-
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <h1 class="bigger" style="color: #ffffff">Yani & Brian</h1>
-              <h5 style="margin-top:60px; font-weight:400; letter-spacing:6px; color: #ffffff">We do.</h5>
-            </div>
-          </div>
-        </div>
+        <div class="gla_slide_midtitle">Yani & Brian
+          <br>11 May, 2019</div>
 
       </div>
+      <!-- Slider Texts End -->
 
     </div>
-    <!-- END of MAIN SLIDER TITLE INNER WRAPPER -->
+    <!-- container end -->
+
+    <!-- Slide Down -->
+    <a class="gla_scroll_down gla_go" href="#gla_content">
+      <b></b>
+      Scroll
+    </a>
 
   </div>
-  <!-- END of MAIN SLIDER TITLE OUTTER WRAPPER -->
-
-  <!-- MAIN SLIDER IMAGES -->
-
-  <ul class="slides">
+  <!-- Slider End -->
 
 
-    <li>
-      <!-- SLIDE IMAGE -->
-      <div data-stellar-ratio="0.5" class="slide-image" style="background-image:url(assets/images/pink-watercolor-background.jpg);">
+  <!-- Content -->
+  <section id="gla_content" class="gla_content">
+
+    <!-- section -->
+    <section class="gla_section gla_lg_padding gla_image_bck gla_fixed gla_wht_txt" id="homepage-image-tint" data-stellar-background-ratio="0.2" style="background-image: url(assets/images/prezipline.jpg); background-attachment: fixed; background-position: 50% -10px;">
+
+      <div class="gla_slider_flower" data-bottom-top="@class:active" data--200-bottom="@class:no_active">
+        <div class="gla_slider_flower_c1 gla_slider_flower_item"></div>
+        <div class="gla_slider_flower_c2 gla_slider_flower_item"></div>
+        <div class="gla_slider_flower_c3 gla_slider_flower_item"></div>
+        <div class="gla_slider_flower_c4 gla_slider_flower_item"></div>
+        <div class="gla_slider_flower_c5 gla_slider_flower_item"></div>
+        <div class="gla_slider_flower_c6 gla_slider_flower_item"></div>
       </div>
 
-      <!-- SLIDE OVERLAY -->
-      <!-- <div class="slide-overlay" style="opacity:0.1"> </div> -->
 
-    </li>
+      <div class="container text-center">
+
+        <p>
+          <img src="assets/images/animations/ourwedding_wh.gif" data-bottom-top="@src:assets/images/animations/ourwedding_wh.gif" height="150" alt="">
+        </p>
+
+        <h2>We’re Getting Married!</h2>
+
+        <p>Five years ago we reunited at our five year high school reunion. Now we are ready to be united for the rest of our lives, and there is nothing we want more than to have our closest friends and family celebrating with us! 
+        </p>
 
 
-  </ul>
-  <!-- END of MAIN SLIDER IMAGES -->
 
-</section>
-<!-- ENF of MAIN SLIDER -->
+      </div>
+      <!-- container end -->
+
+    </section>
+    <!-- section end -->
 
 
+    <!-- section -->
+    <section class="gla_section gla_image_bck gla_fixed" data-stellar-background-ratio="0.2" data-color="#fff">
 
-<!--CONTENT SECTION-->
-<section id="content">
 
-  <!--COUPLE SECTION-->
-  <section id="couple-section" class="section-block">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-offset-1 col-md-10 text-center">
-          <h2 class="h4">Our Story</h2>
-          <p class="intro-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada aliquam nunc a pharetra. Pellentesque sit
-            amet placerat magna. Nam ut interdum urna, vitae consequat odio. Nullam porttitor sagittis ex quis venenatis.
-            Duis et neque pharetra, sagittis nisi nec, egestas risus. Nam quis laoreet lacus. Integer lobortis quam ut eros
-            mollis efficitur. In sit amet orci at nisi lobortis.</p>
+      <div class="container text-center">
+        <p>
+          <img src="assets/images/animations/savethedate.gif" data-bottom-top="@src:assets/images/animations/savethedate.gif" height="150" alt="">
+        </p>
+        <h2>May 11, 2019</h2>
+        <h3 class="gla_subtitle">Shadow Creek<br>Purcellville, VA</h3>
+        <div class="gla_countdown" data-year='2019' data-month='05' data-day='11'>
         </div>
+
       </div>
-      <div class="row" id="flex-center-align">
-        <!-- <div class="col-xs-6 col-sm-offset-2 col-sm-4 col-md-offset-3 col-md-3">
-          <img src="http://placehold.it/262x262" alt="" class="fullwidth rounded">
-        </div> -->
-        <div class="col-xs-6 col-sm-4 col-md-3" id="image-cropper-round">
-          <img src="assets/images/yb-spain-1.jpg" alt="" class="fullwidth rounded" id="circle-image">
-        </div>
-      </div>
-    </div>
+      <!-- container end -->
+
+    </section>
+    <!-- section end -->
   </section>
-  <!-- END of COUPLE SECTION-->
+  <!-- Content End -->
 
-
-  <!-- SAVE THE DATE SECTION -->
-  <section id="save-the-date-section">
-    <div class="image-divider fixed-height" style="background-image:url(assets/images/yb-spain-back.jpg);" data-stellar-background-ratio="0.1">
-
-      <div class="divider-overlay"></div>
-
-      <!--Use Center Middle Alignment to align middle the content for fixed-height parallax-->
-      <div class="alignment">
-        <div class="v-align center-middle">
-
-          <div class="container">
-            <div class="row" id="responsive-line-height">
-              <div class="col-md-offset-1 col-md-10 text-center">
-                <div class="handwriting-title">Save the Date</div>
-                <h2 style="margin-bottom:0px">May 11, 2019</h2>
-                <!-- <h5 style="letter-spacing:6px; margin-top:30px">You're Invited</h5> -->
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-offset-2 col-md-8 text-center">
-                <div id="countdown" class="countdown box-countdown"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- END of SAVE THE DATE SECTION -->
-</section>
+</div>
+<!-- Page End -->
