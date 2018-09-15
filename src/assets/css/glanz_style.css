@@ -4347,9 +4347,9 @@ video#video_background  {
 	-webkit-box-shadow: 0 1.5px 9px 0 rgba(0,0,0,0.2);
   -moz-box-shadow: 0 1.5px 9px 0 rgba(0,0,0,0.2);
   box-shadow: 0 1.5px 9px 0 rgba(0,0,0,0.2);
-	-webkit-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
+	/* -webkit-transition: all 0.3s; */
+	/* -o-transition: all 0.3s; */
+	/* transition: all 0.3s; */
 	margin-bottom: 30px;
 }
 .gla_wht_txt .gla_news_block:hover,
@@ -4360,11 +4360,11 @@ video#video_background  {
 }
 	.gla_news_block:hover,
 	.gla_shop_item:hover {
-		text-decoration: none;
-		transform: translateY(-10px);
-		-webkit-box-shadow: 0px 9px 32px -1px rgba(0,0,0,0.2);
+		/* text-decoration: none; */
+		/* transform: translateY(-10px); */
+		/* -webkit-box-shadow: 0px 9px 32px -1px rgba(0,0,0,0.2);
     -moz-box-shadow: 0px 9px 32px -1px rgba(0,0,0,0.2);
-    box-shadow: 0px 9px 32px -1px rgba(0,0,0,0.2);
+    box-shadow: 0px 9px 32px -1px rgba(0,0,0,0.2); */
 	}
 .gla_wht_txt .gla_news_block,
 .gla_wht_txt .gla_shop_item {
@@ -4467,8 +4467,17 @@ video#video_background  {
 		opacity: 0.6;
 		padding: 0 30px;
 	}
-	.gla_news_block p {
+	.gla_news_block p{
 		padding: 0 30px;
+	}
+	.gla_news_block ul{
+		padding: 0 30px;
+		margin-left: 25px;
+	}
+	.gla_news_block a{
+		padding: 0 30px;
+		margin-left: 25px;
+		margin-bottom: 30px;
 	}
 	.gla_team_slider_single .gla_news_block {
 		width: 340px;

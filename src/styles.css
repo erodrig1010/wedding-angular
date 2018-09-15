@@ -10,3 +10,28 @@
   background-attachment: fixed; 
   background-position: 50% -10px;
 }
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.top-margin-sm {
+  margin-top: 10px
+}
+
+.top-margin-md {
+  margin-top: 20px
+}
+
+.top-margin-lg {
+  margin-top: 30px
+}
+
+.top-margin-xlg {
+  margin-top: 60px
+}
+
+.bottom-margin-sm {
+  margin-bottom: 10px
+}
