@@ -35,3 +35,11 @@
 .bottom-margin-sm {
   margin-bottom: 10px
 }
+
+.button {
+  background-color: #efe5dd;
+}
+
+.button:hover {
+  background-color: #f5c3ae;
+}

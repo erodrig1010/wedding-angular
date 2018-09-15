@@ -12,8 +12,8 @@ export class ScheduleComponent implements OnInit {
   ngOnInit() {
   }
 
-  refresh(): void {
-    window.location.reload();
-  }
+  // refresh(): void {
+  //   window.location.reload();
+  // }
 
 }

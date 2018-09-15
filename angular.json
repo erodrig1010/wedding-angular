@@ -25,7 +25,11 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery-1.12.4.min.js",
+              "src/assets/js/glanz_library.js",
+              "src/assets/js/glanz_script.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -74,7 +78,11 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "src/assets/js/jquery-1.12.4.min.js",
+              "src/assets/js/glanz_library.js",
+              "src/assets/js/glanz_script.js"
+            ],
             "assets": [
               "src/favicon.ico",
               "src/assets"
