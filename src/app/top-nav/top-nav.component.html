@@ -1,8 +1,8 @@
 <!-- Header -->
 <header class="gla_header">
 
-  <nav class="gla_light_nav gla_image_bck gla_fixed" data-color="#efe5dd" style="background-color: rgb(239, 229, 221); opacity: 0.8;">
-    <div class="gla_over" data-color="#efe5dd" data-opacity="0.8" style="background-color: rgb(239, 229, 221); opacity: 0.8;">
+  <nav class="gla_light_nav gla_image_bck gla_fixed" data-color="#efe5dd" style="background-color: rgb(239, 229, 221);">
+    <div class="gla_over" data-color="#efe5dd" data-opacity="0.8" style="background-color: rgb(239, 229, 221);">
     </div>
     
     <div class="container">
@@ -24,7 +24,6 @@
           <i></i>
           <i></i>
           <i></i>
-          <i></i>
           <b>Menu</b>
           <b class="gla_main_menu_icon_b">Back</b>
         </div>
@@ -33,45 +32,46 @@
       <!-- Menu Content -->
       <div class="gla_main_menu_content gla_image_bck" data-color="rgba(0,0,0,0.9)" style="background-color: rgba(0, 0, 0, 0.9);">
         <!-- Over -->
-        <div class="gla_over" data-color="#000" data-opacity="0.7"></div>
+        <div class="gla_over" data-color="#000" data-opacity="0.7" style="background-color: rgb(0, 0, 0); opacity: 0.7;"></div>
       </div>
 
       <div class="gla_main_menu_content_menu gla_wht_txt text-right">
         <div class="container">
-          <ul>
-            <li class="gla">
-              <a [routerLink]="['/index']" routerLinkActive="active">Home</a>
-            </li>
+            <div class="menu-menu-1-container">
+              <ul>
+                <li class="gla">
+                  <a [routerLink]="['/index']" routerLinkActive="active">Home</a>
+                </li>
 
-            <li class="gla">
-              <a [routerLink]="['/schedule']" routerLinkActive="active">Schedule</a>
-            </li>
+                <li class="gla">
+                  <a [routerLink]="['/schedule']" routerLinkActive="active">Schedule</a>
+                </li>
 
-            <li class="gla">
-              <a [routerLink]="['/travel']" routerLinkActive="active">Travel</a>
-            </li>
+                <li class="gla">
+                  <a [routerLink]="['/travel']" routerLinkActive="active">Travel</a>
+                </li>
 
-            <li class="gla">
-              <a [routerLink]="['/entourage']" routerLinkActive="active">Entourage</a>
-            </li>
+                <li class="gla">
+                  <a [routerLink]="['/entourage']" routerLinkActive="active">Entourage</a>
+                </li>
 
-            <li class="gla">
-              <a [routerLink]="['/faq']" routerLinkActive="active">FAQ</a>
-            </li>
+                <li class="gla">
+                  <a [routerLink]="['/faq']" routerLinkActive="active">FAQ</a>
+                </li>
 
-            <li class="gla">
-              <a [routerLink]="['/registry']" routerLinkActive="active">Registry</a>
-            </li>
+                <li class="gla">
+                  <a [routerLink]="['/registry']" routerLinkActive="active">Registry</a>
+                </li>
 
-            <li class="gla">
-              <a [routerLink]="['/gallery']" routerLinkActive="active">Gallery</a>
-            </li>
+                <li class="gla">
+                  <a [routerLink]="['/gallery']" routerLinkActive="active">Gallery</a>
+                </li>
 
-            <li class="gla">
-              <a [routerLink]="['/song-request']" routerLinkActive="active">Request a Song</a>
-            </li>
-          </ul>
-
+                <li class="gla">
+                  <a [routerLink]="['/song-request']" routerLinkActive="active">Request a Song</a>
+                </li>
+              </ul>
+            </div>
         </div>
         <!-- container end -->
       </div>
