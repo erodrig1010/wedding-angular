@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-song-request',
@@ -7,13 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SongRequestComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
   }
 
-  refresh(): void {
-    window.location.reload();
-  }
+  // refresh(): void {
+  //   window.location.reload();
+  // }
 
 }
