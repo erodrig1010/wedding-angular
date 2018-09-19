@@ -1,10 +1,46 @@
 <!-- Page -->
 <div class="gla_page" id="gla_page">
 
-<!-- NAVIGATION -->
-<app-top-nav></app-top-nav>
-<!-- END of NAVIGATION -->
+  <!-- NAVIGATION -->
+  <app-top-nav></app-top-nav>
+  <!-- END of NAVIGATION -->
 
+    <!-- Content -->
+    <section id="gla_content" class="gla_content">
+
+      <!-- section -->
+      <section class="gla_section">
+
+          <div class="container text-center">
+              <h2 style="margin-bottom: 10px;">Request a Song</h2><br><br><br>
+              <p>Help us make sure our reception is poppin. What song do you want to hear?</p>
+              
+              <div class="row">
+                  <div class="col-md-8 col-md-push-2">
+                      <form action="https://formspree.io/your@mail.com" method="POST">
+                          <div class="row">
+                              <div class="col-md-12">
+                                  <!-- <label>What song do you want to hear at the reception?</label> -->
+                                  <input type="text" [(ngModel)]="formInfo.song" id="song" name="song" class="form-control form-opacity" placeholder="Name your song"/>
+                              </div>
+                              
+                              <div class="col-md-12">
+                                  <button (click)="submitSong()" class="btn submit" value="Submit">Submit</button>
+                              </div>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+              
+              
+          </div>
+          <!-- container end -->
+
+      </section>
+      <!-- section end -->
+
+    </section>
+    <!-- content end-->
 
 </div>
 <!-- page end -->

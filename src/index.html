@@ -49,6 +49,14 @@
   
   <!-- Theme JS -->
   <script type="text/javascript" src="assets/js/glanz_script.js"></script>
+
+  <script>
+    var iframeElement   = document.querySelector('iframe');
+    var iframeElementID = iframeElement.id;
+    var widget1         = SC.Widget(iframeElement);
+    var widget2         = SC.Widget(iframeElementID);
+    // widget1 === widget2
+  </script>
   
   <!-- Google Map -->
   <!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVnuz2dKnee8r7rjikBMGQ1jA0dWttTxk"></script> -->

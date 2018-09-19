@@ -14,6 +14,7 @@ import { FaqComponent } from './faq/faq.component';
 import { RegistryComponent } from './registry/registry.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { SongRequestComponent } from './song-request/song-request.component';
+import { SongRequestService } from './services/songRequest.service';
 import { TopNavComponent } from './top-nav/top-nav.component';
 
 const routes: Routes = [
@@ -43,10 +44,12 @@ const routes: Routes = [
     RegistryComponent
   ],
   imports: [
+    HttpModule,
     BrowserModule,
-    RouterModule.forRoot(routes),
+    FormsModule,
+    RouterModule.forRoot(routes)
   ],
-  providers: [],
+  providers: [SongRequestService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { SongRequestService } from '../services/songRequest.service';
 
 @Component({
   selector: 'app-song-request',
@@ -7,14 +8,21 @@ import { Router } from '@angular/router';
   styleUrls: ['./song-request.component.css']
 })
 export class SongRequestComponent implements OnInit {
+  formInfo: any = {song: ''}
 
-  constructor(private router: Router) { }
+  constructor(
+    private songRequestService: SongRequestService, 
+    private router: Router
+  ) { }
 
   ngOnInit() {
   }
 
-  // refresh(): void {
-  //   window.location.reload();
-  // }
+  submitSong() {
+    this.songRequestService.submitSong(this.formInfo)
+    .subscribe(() => {
+      this.formInfo = {};
+    });
+  }
 
 }
