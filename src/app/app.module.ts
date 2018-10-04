@@ -22,7 +22,7 @@ const routes: Routes = [
   { path: 'index',  component: LandingPageComponent },
   { path: 'schedule', component: ScheduleComponent},
   { path: 'travel', component: TravelComponent},
-  { path: 'entourage', component: EntourageComponent},
+  // { path: 'entourage', component: EntourageComponent},
   { path: 'faq', component: FaqComponent},
   { path: 'registry', component: RegistryComponent},
   { path: 'gallery', component: GalleryComponent},
