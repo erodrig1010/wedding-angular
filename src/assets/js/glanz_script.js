@@ -1,8 +1,7 @@
-﻿(function($) {
+﻿$(document).ready(function($) {
 	"use strict"; // Start of use strict
 	
-	$(document).ready(function() {
-		// $( window ).on( "load", function() {
+	// $(document).ready(function() {
 
 		/* Logo Lettering */
 		var logo_rotate = $("header .gla_logo_animation").attr('data-rotate');
@@ -588,7 +587,7 @@
 		
 
 
-		$(window).load(function(){
+		// $(window).load(function(){
 
 				// Page loader
 						
@@ -699,11 +698,11 @@
 				}
 			});
 			
-		});
+		// });
 
 	});	
 	
-})(jQuery);
+// })(jQuery);
 
 
 

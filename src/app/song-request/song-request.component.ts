@@ -1,13 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { SongRequestService } from '../services/songRequest.service';
+declare var $: any;
 
 @Component({
   selector: 'app-song-request',
   templateUrl: './song-request.component.html',
   styleUrls: ['./song-request.component.css']
 })
-export class SongRequestComponent implements OnInit {
+export class SongRequestComponent implements OnInit, AfterViewInit {
   formInfo: any = {song: ''}
 
   constructor(
@@ -16,6 +17,10 @@ export class SongRequestComponent implements OnInit {
   ) { }
 
   ngOnInit() {
+  }
+
+  ngAfterViewInit() {
+    $.getScript('assets/js/glanz_script.js');
   }
 
   submitSong() {

@@ -28,7 +28,6 @@
               "src/styles.css"
             ],
             "scripts": [
-              "src/assets/js/jquery-1.12.4.min.js",
               "src/assets/js/glanz_library.js",
               "src/assets/js/glanz_script.js"
             ]
@@ -83,7 +82,6 @@
               "src/styles.css"
             ],
             "scripts": [
-              "src/assets/js/jquery-1.12.4.min.js",
               "src/assets/js/glanz_library.js",
               "src/assets/js/glanz_script.js"
             ],
