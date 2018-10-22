@@ -2780,32 +2780,32 @@ ul.mega-menu {
 
 
 .gla_slider_flower_ii.gla_slider_flower_c1 {
-	background-image: url(/images/flowers_slider/fl2_c1.png);
+	background-image: url(../images/flowers_slider/fl2_c1.png);
 	width: 400px;
 	height: 454px;
 }
 .gla_slider_flower_ii.gla_slider_flower_c2 {
-	background-image: url(/images/flowers_slider/fl2_c2.png);
+	background-image: url(../images/flowers_slider/fl2_c2.png);
 	width: 400px;
 	height: 496px;
 }
 .gla_slider_flower_ii.gla_slider_flower_c3 {
-	background-image: url(/images/flowers_slider/fl2_c3.png);
+	background-image: url(../images/flowers_slider/fl2_c3.png);
 	width: 400px;
 	height: 365px;
 }
 .gla_slider_flower_ii.gla_slider_flower_c4 {
-	background-image: url(/images/flowers_slider/fl2_c4.png);
+	background-image: url(../images/flowers_slider/fl2_c4.png);
 	width: 400px;
 	height: 441px;
 }
 .gla_slider_flower_ii.gla_slider_flower_c5 {
-	background-image: url(/images/flowers_slider/fl2_c5.png);
+	background-image: url(../images/flowers_slider/fl2_c5.png);
 	width: 500px;
 	height: 171px;
 }
 .gla_slider_flower_ii.gla_slider_flower_c6 {
-	background-image: url(/images/flowers_slider/fl2_c6.png);
+	background-image: url(../images/flowers_slider/fl2_c6.png);
 	width: 500px;
 	height: 199px;
 }
@@ -2813,33 +2813,33 @@ ul.mega-menu {
 
 
 .gla_slider_flower_iii.gla_slider_flower_c1 {
-	background-image: url(/images/flowers_slider/fl3_c1.png);
+	background-image: url(../images/flowers_slider/fl3_c1.png);
 	width: 400px;
 	height: 256px;
 }
 .gla_slider_flower_iii.gla_slider_flower_c2 {
-	background-image: url(/images/flowers_slider/fl3_c2.png);
+	background-image: url(../images/flowers_slider/fl3_c2.png);
 	width: 400px;
 	height: 443px;
 }
 .gla_slider_flower_iii.gla_slider_flower_c3 {
-	background-image: url(/images/flowers_slider/fl3_c3.png);
+	background-image: url(../images/flowers_slider/fl3_c3.png);
 	width: 350px;
 	height: 315px;
 }
 .gla_slider_flower_iii.gla_slider_flower_c4 {
-	background-image: url(/images/flowers_slider/fl3_c4.png);
+	background-image: url(../images/flowers_slider/fl3_c4.png);
 	width: 400px;
 	height: 365px;
 }
 .gla_slider_flower_iii.gla_slider_flower_c5 {
-	background-image: url(/images/flowers_slider/fl3_c5.png);
+	background-image: url(../images/flowers_slider/fl3_c5.png);
 	width: 500px;
 	height: 217px;
 	transform:translateX(-39%);
 }
 .gla_slider_flower_iii.gla_slider_flower_c6 {
-	background-image: url(/images/flowers_slider/fl3_c6.png);
+	background-image: url(../images/flowers_slider/fl3_c6.png);
 	width: 500px;
 	height: 183px;
 }
@@ -2848,7 +2848,7 @@ ul.mega-menu {
 	}
 
 .gla_slider_flower_c1 {
-	background: url(/images/flowers_slider/fl1_c1.png);
+	background: url(../images/flowers_slider/fl1_c1.png);
 	width: 400px;
 	height: 471px;
 	-webkit-background-size: cover;
@@ -2863,7 +2863,7 @@ ul.mega-menu {
 	}
 	
 .gla_slider_flower_c2 {
-	background: url(/images/flowers_slider/fl1_c2.png);
+	background: url(../images/flowers_slider/fl1_c2.png);
 	width: 385px;
 	height: 344px;
 	-webkit-background-size: cover;
@@ -2877,7 +2877,7 @@ ul.mega-menu {
 		top: -300px;
 	}
 .gla_slider_flower_c3 {
-	background: url(/images/flowers_slider/fl1_c3.png);
+	background: url(../images/flowers_slider/fl1_c3.png);
 	width: 380px;
 	height: 476px;
 	-webkit-background-size: cover;
@@ -2891,7 +2891,7 @@ ul.mega-menu {
 		bottom: -300px;
 	}
 .gla_slider_flower_c4 {
-	background: url(/images/flowers_slider/fl1_c4.png);
+	background: url(../images/flowers_slider/fl1_c4.png);
 	width: 590px;
 	height: 290px;
 	-webkit-background-size: cover;
@@ -2905,7 +2905,7 @@ ul.mega-menu {
 		left: -300px;
 	}
 .gla_slider_flower_c5 {
-	background: url(/images/flowers_slider/fl1_c5.png);
+	background: url(../images/flowers_slider/fl1_c5.png);
 	width: 520px;
 	height: 224px;
 	-webkit-background-size: cover;
@@ -2919,7 +2919,7 @@ ul.mega-menu {
 		top: -300px;
 	}
 .gla_slider_flower_c6 {
-	background: url(/images/flowers_slider/fl1_c6.png);
+	background: url(../images/flowers_slider/fl1_c6.png);
 	width: 500px;
 	height: 205px;
 	-webkit-background-size: cover;
