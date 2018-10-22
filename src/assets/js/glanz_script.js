@@ -2,6 +2,7 @@
 	"use strict"; // Start of use strict
 	
 	$(document).ready(function() {
+		// $( window ).on( "load", function() {
 
 		/* Logo Lettering */
 		var logo_rotate = $("header .gla_logo_animation").attr('data-rotate');

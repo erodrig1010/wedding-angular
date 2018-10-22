@@ -13,8 +13,8 @@ export class TopNavComponent implements OnInit {
   ngOnInit() {
   }
 
-  // refresh(): void {
-  //   window.location.reload();
-  // }
+  refresh(): void {
+    window.location.reload();
+  }
 
 }

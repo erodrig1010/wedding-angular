@@ -1830,7 +1830,7 @@ ul.mega-menu {
 			left: 0;
 		}
 		.enhance_logo .char2 {
-			background: url(../images/enhance_logo_n.png) no-repeat 0 1px;
+			background: url(/images/enhance_logo_n.png) no-repeat 0 1px;
 			height: 18px;
 			width: 7px;
 			display: inline-block;
@@ -2647,14 +2647,14 @@ ul.mega-menu {
 
 /*Gold Numbers*/
 .countdown-amount span {
-	background-image: url(../images/gold_numbers_wh.gif);
+	background-image: url(/images/gold_numbers_wh.gif);
 	display: inline-block;
 	height: 150px;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
 .gla_wht_txt .countdown-amount span {
-	background-image: url(../images/gold_numbers.gif);
+	background-image: url(/images/gold_numbers.gif);
 }
 .gla_image_day.gla_image0,
 .gla_image_hours.gla_image0,
@@ -2780,32 +2780,32 @@ ul.mega-menu {
 
 
 .gla_slider_flower_ii.gla_slider_flower_c1 {
-	background-image: url(../images/flowers_slider/fl2_c1.png);
+	background-image: url(/images/flowers_slider/fl2_c1.png);
 	width: 400px;
 	height: 454px;
 }
 .gla_slider_flower_ii.gla_slider_flower_c2 {
-	background-image: url(../images/flowers_slider/fl2_c2.png);
+	background-image: url(/images/flowers_slider/fl2_c2.png);
 	width: 400px;
 	height: 496px;
 }
 .gla_slider_flower_ii.gla_slider_flower_c3 {
-	background-image: url(../images/flowers_slider/fl2_c3.png);
+	background-image: url(/images/flowers_slider/fl2_c3.png);
 	width: 400px;
 	height: 365px;
 }
 .gla_slider_flower_ii.gla_slider_flower_c4 {
-	background-image: url(../images/flowers_slider/fl2_c4.png);
+	background-image: url(/images/flowers_slider/fl2_c4.png);
 	width: 400px;
 	height: 441px;
 }
 .gla_slider_flower_ii.gla_slider_flower_c5 {
-	background-image: url(../images/flowers_slider/fl2_c5.png);
+	background-image: url(/images/flowers_slider/fl2_c5.png);
 	width: 500px;
 	height: 171px;
 }
 .gla_slider_flower_ii.gla_slider_flower_c6 {
-	background-image: url(../images/flowers_slider/fl2_c6.png);
+	background-image: url(/images/flowers_slider/fl2_c6.png);
 	width: 500px;
 	height: 199px;
 }
@@ -2813,33 +2813,33 @@ ul.mega-menu {
 
 
 .gla_slider_flower_iii.gla_slider_flower_c1 {
-	background-image: url(../images/flowers_slider/fl3_c1.png);
+	background-image: url(/images/flowers_slider/fl3_c1.png);
 	width: 400px;
 	height: 256px;
 }
 .gla_slider_flower_iii.gla_slider_flower_c2 {
-	background-image: url(../images/flowers_slider/fl3_c2.png);
+	background-image: url(/images/flowers_slider/fl3_c2.png);
 	width: 400px;
 	height: 443px;
 }
 .gla_slider_flower_iii.gla_slider_flower_c3 {
-	background-image: url(../images/flowers_slider/fl3_c3.png);
+	background-image: url(/images/flowers_slider/fl3_c3.png);
 	width: 350px;
 	height: 315px;
 }
 .gla_slider_flower_iii.gla_slider_flower_c4 {
-	background-image: url(../images/flowers_slider/fl3_c4.png);
+	background-image: url(/images/flowers_slider/fl3_c4.png);
 	width: 400px;
 	height: 365px;
 }
 .gla_slider_flower_iii.gla_slider_flower_c5 {
-	background-image: url(../images/flowers_slider/fl3_c5.png);
+	background-image: url(/images/flowers_slider/fl3_c5.png);
 	width: 500px;
 	height: 217px;
 	transform:translateX(-39%);
 }
 .gla_slider_flower_iii.gla_slider_flower_c6 {
-	background-image: url(../images/flowers_slider/fl3_c6.png);
+	background-image: url(/images/flowers_slider/fl3_c6.png);
 	width: 500px;
 	height: 183px;
 }
@@ -2848,7 +2848,7 @@ ul.mega-menu {
 	}
 
 .gla_slider_flower_c1 {
-	background: url(../images/flowers_slider/fl1_c1.png);
+	background: url(/images/flowers_slider/fl1_c1.png);
 	width: 400px;
 	height: 471px;
 	-webkit-background-size: cover;
@@ -2863,7 +2863,7 @@ ul.mega-menu {
 	}
 	
 .gla_slider_flower_c2 {
-	background: url(../images/flowers_slider/fl1_c2.png);
+	background: url(/images/flowers_slider/fl1_c2.png);
 	width: 385px;
 	height: 344px;
 	-webkit-background-size: cover;
@@ -2877,7 +2877,7 @@ ul.mega-menu {
 		top: -300px;
 	}
 .gla_slider_flower_c3 {
-	background: url(../images/flowers_slider/fl1_c3.png);
+	background: url(/images/flowers_slider/fl1_c3.png);
 	width: 380px;
 	height: 476px;
 	-webkit-background-size: cover;
@@ -2891,7 +2891,7 @@ ul.mega-menu {
 		bottom: -300px;
 	}
 .gla_slider_flower_c4 {
-	background: url(../images/flowers_slider/fl1_c4.png);
+	background: url(/images/flowers_slider/fl1_c4.png);
 	width: 590px;
 	height: 290px;
 	-webkit-background-size: cover;
@@ -2905,7 +2905,7 @@ ul.mega-menu {
 		left: -300px;
 	}
 .gla_slider_flower_c5 {
-	background: url(../images/flowers_slider/fl1_c5.png);
+	background: url(/images/flowers_slider/fl1_c5.png);
 	width: 520px;
 	height: 224px;
 	-webkit-background-size: cover;
@@ -2919,7 +2919,7 @@ ul.mega-menu {
 		top: -300px;
 	}
 .gla_slider_flower_c6 {
-	background: url(../images/flowers_slider/fl1_c6.png);
+	background: url(/images/flowers_slider/fl1_c6.png);
 	width: 500px;
 	height: 205px;
 	-webkit-background-size: cover;
@@ -3059,7 +3059,7 @@ ul.mega-menu {
 }
 /*Flower*/
 .gla_flower:after {
-	background: url(../images/flower.png);
+	background: url(/images/flower.png);
 	width: 535px;
 	height: 535px;
 	-webkit-background-size: cover;
@@ -3080,7 +3080,7 @@ ul.mega-menu {
   
 }
 .gla_flower2:after {
-	background: url(../images/flower2.png);
+	background: url(/images/flower2.png);
 	width: 485px;
 	height: 485px;
 	-webkit-background-size: cover;
@@ -3103,7 +3103,7 @@ ul.mega-menu {
 .gla_flower2:before {
 	display: block;
 	content: '';
-	background: url(../images/flower2_bird.png);
+	background: url(/images/flower2_bird.png);
 	width: 120px;
 	height: 115px;
 	position: absolute;
@@ -3137,7 +3137,7 @@ ul.mega-menu {
 }
 
 .gla_flower3:after {
-	background: url(../images/flower3.png);
+	background: url(/images/flower3.png);
 	width: 535px;
 	height: 535px;
 	-webkit-background-size: cover;
@@ -3493,7 +3493,7 @@ video#video_background  {
 	.gla_round_im2:after {
 		display: block;
 		content: '';
-		background: url(../images/flower2.png);
+		background: url(/images/flower2.png);
 		height: 300px;
 		width: 300px;
 		-webkit-background-size: cover;
@@ -3820,7 +3820,7 @@ video#video_background  {
 
 /*06.1 Icon Boxes*/
 .grid-item a {
-	cursor: url(../images/cursor.png),auto;
+	cursor: url(/images/cursor.png),auto;
 }
 .gla_demos a {
 	cursor: pointer;
@@ -4052,7 +4052,7 @@ video#video_background  {
 	}
 	/*06.2.02 Macbook Animation*/
 	.gla_macbook {
-		background: url(../images/macbook2.png);
+		background: url(/images/macbook2.png);
 		-webkit-background-size: cover;
 		background-size: cover;
 		width: 600px;
@@ -4099,7 +4099,7 @@ video#video_background  {
 		position: absolute;
 		display: block;
 		content: '';
-		background:url(../images/gla_desktop.png);
+		background:url(/images/gla_desktop.png);
 		width: 100%;
 		height: 32px;
 		z-index: 2;
@@ -4111,7 +4111,7 @@ video#video_background  {
 		position: absolute;
 		display: block;
 		content: '';
-		background:url(../images/gla_mobile_header.png);
+		background:url(/images/gla_mobile_header.png);
 		width: 100%;
 		height: 42px;
 		z-index: 2;
@@ -4123,7 +4123,7 @@ video#video_background  {
 		position: absolute;
 		display: block;
 		content: '';
-		background:url(../images/gla_tablet_header.png);
+		background:url(/images/gla_tablet_header.png);
 		width: 100%;
 		height: 41px;
 		z-index: 2;
