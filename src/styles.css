@@ -1,15 +1,62 @@
 /* You can add global styles to this file, and also import other style files */
-#homepage-image-tint {
-  background:
-    linear-gradient(
-      rgba(0,0,0,.5),
-      rgba(0,0,0,.5)
-    ),
-    url(assets/images/prezipline.jpg);
 
-  background-attachment: fixed; 
-  background-position: 50% -10px;
+@media (max-width: 600px) {
+  .mobile #homepage-image-tint {
+    background-position: -350px 0px;
+  }
 }
+
+/* @media (min-width: 601px) and (max-width: 800px) {
+  .gla_slider_flower_c1 {
+    left: -200px;
+    top: -200px;		
+  }
+  .gla_slider_flower_c2 {
+    right: -200px;
+    top: -200px;		
+  }
+  .gla_slider_flower_c3 {
+    right: -200px;
+    bottom: -200px;		
+  }
+  
+  .gla_slider_flower_c4 {
+    bottom: -200px;
+    bottom: -200px;		
+  }
+  .gla_slider_flower_c5 {
+    top: -200px;		
+  }
+  .gla_slider_flower_c6 {
+    bottom: -200px;		
+  }
+}
+
+@media (min-width: 801) {
+  .gla_slider_flower_c1 {
+    left: -100px;
+    top: -100px;		
+  }
+  .gla_slider_flower_c2 {
+    right: -100px;
+    top: -100px;		
+  }
+  .gla_slider_flower_c3 {
+    right: -100px;
+    bottom: -100px;		
+  }
+  
+  .gla_slider_flower_c4 {
+    bottom: -100px;
+    bottom: -100px;		
+  }
+  .gla_slider_flower_c5 {
+    top: -100px;		
+  }
+  .gla_slider_flower_c6 {
+    bottom: -100px;		
+  }
+} */
 
 .center {
   display: flex;
